@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.12)
+project(OpenGL_Demo)
+
+set(CMAKE_CXX_STANDARD 11)
+
+#添加头文件
+set(GLEW_H /usr/local/Cellar/glew/2.1.0/include/GL)
+set(GLFW_H /usr/local/Cellar/glfw/3.3/include/GLFW)
+set(GLAD_H ../include/glad)
+include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H})
+#添加目标连接
+set(GLEW_LINK /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib)
+set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
+link_libraries(${OPENGL} ${GLFW_LINK} ${GLEW_LINK})
+
+
+#set(SOURCE_FILES "src/glad.c" "src/01_first_view.cpp")
+
+#add_executable(OpenGL_Demo ${SOURCE_FILES})
+#执行编译命令
+add_executable(OpenGL_Demo1 src/glad.c src/01_first_view.cpp)
+add_executable(OpenGl_Demo2 src/02_test.cpp)
+add_executable(OpenGL_Demo_1_1_hello_window src/1.getting_started/1.1.hello_window/hello_window.cpp)
+
+if (APPLE)
+    # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
+    target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo1 "-framework GLUT")
+
+    #1.1 hello window
+    target_link_libraries(OpenGL_Demo_1_1_hello_window "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_1_1_hello_window "-framework GLUT")
+
+endif ()
