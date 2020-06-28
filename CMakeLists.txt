@@ -20,7 +20,7 @@ link_libraries(${OPENGL} ${GLFW_LINK} ${GLEW_LINK})
 #执行编译命令
 add_executable(OpenGL_Demo1 src/glad.c src/01_first_view.cpp)
 add_executable(OpenGl_Demo2 src/02_test.cpp)
-add_executable(OpenGL_Demo_1_1_hello_window src/1.getting_started/1.1.hello_window/hello_window.cpp)
+add_executable(OpenGL_Demo_1_1_hello_window   src/1.getting_started/1.1.hello_window/hello_window.cpp src/glad.c)
 
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
@@ -28,7 +28,7 @@ if (APPLE)
     target_link_libraries(OpenGL_Demo1 "-framework GLUT")
 
     #1.1 hello window
-    target_link_libraries(OpenGL_Demo_1_1_hello_window "-framework OpenGL")
+#    target_link_libraries(OpenGL_Demo_1_1_hello_window "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_1_1_hello_window "-framework GLUT")
 
 endif ()

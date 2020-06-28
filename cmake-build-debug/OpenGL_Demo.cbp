@@ -192,6 +192,7 @@
 			<Option target="OpenGL_Demo_1_1_hello_window"/>
 		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c">
+			<Option target="OpenGL_Demo_1_1_hello_window"/>
 			<Option target="OpenGL_Demo1"/>
 		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/CMakeLists.txt">

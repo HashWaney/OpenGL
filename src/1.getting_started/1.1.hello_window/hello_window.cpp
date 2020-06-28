@@ -2,8 +2,10 @@
 // Created by hash on 2020/6/28.
 //
 
+#include "../../../include/glad/glad.h"
 #include "glfw3.h"
 #include "iostream"
+
 
 using namespace std;
 
@@ -32,12 +34,21 @@ int main() {
     // 然后找到正确的函数并且赋值给函数指针，这个时候才能去调用函数；不能直接去调用OpenGL的函数
     // 而将找到正确匹配的OpenGL函数，赋值给我们定义的函数指针，通过函数指针来调用OpenGl的函数。
 
-    typedef void(*GL_GENBUFFERS)(GLsizei,GLuint*);
+    typedef void(*GL_GENBUFFERS)(GLsizei, GLuint *);
     //找到正确的函数并赋值给函数指针
-    GL_GENBUFFERS glGenbuffers =(GL_GENBUFFERS)glfwGetProcAddress("glGenBuffers")
+    GL_GENBUFFERS glGenbuffers = (GL_GENBUFFERS) glfwGetProcAddress("glGenBuffers");
     //现在函数可以被正常调用了
-    GLuint  buffer;
-    glGenBuffers(1,&buffer);
+    GLuint buffer;
+
+//    if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    // glad: load all OpenGL function pointers
+    // ---------------------------------------
+
+    typedef void* (* GLADloadproc)(const char *name);
+    if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress)) {
+
+    }
+
 
     return 0;
 }

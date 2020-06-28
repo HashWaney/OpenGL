@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/glad/glad.h
+../KHR/khrplatform.h
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/KHR/khrplatform.h
+
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/1.1.hello_window/hello_window.cpp
+../../../include/glad/glad.h
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/glad/glad.h
 glfw3.h
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/1.1.hello_window/glfw3.h
+iostream
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/1.1.hello_window/iostream
 
 /usr/local/Cellar/glfw/3.3/include/GLFW/glfw3.h
 stddef.h

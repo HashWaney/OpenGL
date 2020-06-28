@@ -236,6 +236,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
@@ -245,6 +246,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
@@ -254,6 +256,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
