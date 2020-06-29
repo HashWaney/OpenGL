@@ -4,8 +4,9 @@
 
 #include "../../../include/glad/glad.h"
 #include "glfw3.h"
-#include "iostream"
 #include "glew.h"
+#include "iostream"
+
 
 // 将glad.h文件放在所有的头文件之前，不然会报如下错误。
 //#include <glad/glad.h>必须放在所有头文件之前，不管在哪里，不管在.h还是.cpp;

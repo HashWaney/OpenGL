@@ -18,10 +18,23 @@ link_libraries(${OPENGL} ${GLFW_LINK} ${GLEW_LINK})
 
 #add_executable(OpenGL_Demo ${SOURCE_FILES})
 #执行编译命令
-add_executable(OpenGL_Demo1 src/glad.c src/01_first_view.cpp)
-add_executable(OpenGl_Demo2 src/02_test.cpp)
-add_executable(OpenGL_Demo_1_1_hello_window src/1.getting_started/1.1.hello_window/hello_window.cpp src/glad.c)
-add_executable(OpenGL_Demo_2_1_hello_triangle src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp src/glad.c)
+add_executable(OpenGL_Demo1
+        src/glad.c
+        src/01_first_view.cpp)
+add_executable(OpenGl_Demo2
+        src/02_test.cpp)
+
+add_executable(OpenGL_Demo_1_1_hello_window
+        src/1.getting_started/1.1.hello_window/hello_window.cpp
+        src/glad.c)
+
+add_executable(OpenGL_Demo_2_1_hello_triangle
+        src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp
+        src/glad.c)
+
+add_executable(OpenGL_Demo_2_2_hello_triangle_index
+        src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp
+        src/glad.c)
 
 
 if (APPLE)
@@ -35,5 +48,7 @@ if (APPLE)
     #2.1 hello triangle
     target_link_libraries(OpenGL_Demo_2_1_hello_triangle "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_2_1_hello_triangle "-framework GLUT")
-
+    #2.2 hello triangle index
+    target_link_libraries(OpenGL_Demo_2_2_hello_triangle_index "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_2_2_hello_triangle_index "-framework GLUT")
 endif ()

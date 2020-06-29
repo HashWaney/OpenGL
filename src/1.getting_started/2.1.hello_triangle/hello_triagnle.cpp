@@ -119,6 +119,7 @@ int main() {
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
     //3.在配置顶点属性。 顶点属性为0
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *) 0);
+    //4.开启顶点属性，以便将顶点属性与VBO进行绑定
     glEnableVertexAttribArray(0);
 
     // 请注意，这是允许的，对glVertexAttribPointer的调用将VBO注册为顶点属性的绑定顶点缓冲区对象

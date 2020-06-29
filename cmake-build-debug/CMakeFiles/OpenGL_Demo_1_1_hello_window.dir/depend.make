@@ -8,5 +8,6 @@ CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o: ../src/glad.c
 CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o: ../include/KHR/khrplatform.h
 CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o: ../include/glad/glad.h
 CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o: ../src/1.getting_started/1.1.hello_window/hello_window.cpp
+CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o: /usr/local/Cellar/glew/2.1.0/include/GL/glew.h
 CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o: /usr/local/Cellar/glfw/3.3/include/GLFW/glfw3.h
 

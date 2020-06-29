@@ -67,7 +67,6 @@ int main(void) {
         glBindBuffer(GL_ARRAY_BUFFER, V2);
 
 
-
         /******交换缓冲区，更新window上的内容******/
         glfwSwapBuffers(window);
 
