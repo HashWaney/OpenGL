@@ -5,14 +5,15 @@
 #include "glfw3.h"
 #include "iostream"
 
+
 using namespace std;
 
 void key_callback(GLFWwindow *window, int key,
                   int scancode, int action, int mode) {
     //如果按下ESC，把windowShouldClose设置为True，外面的循环会关闭应用
-    if(key==GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
         glfwSetWindowShouldClose(window, GL_TRUE);
-    std::cout<<"ESC\n"<<mode<<endl;
+    std::cout << "ESC\n" << mode << endl;
 
 }
 
@@ -42,10 +43,10 @@ int main(void) {
 
         glBegin(GL_TRIANGLES);
         glColor3f(1, 0, 0); // red
-        glVertex3f(0, 1, 1);
+        glVertex3f(0, 1, 0);
 
         glColor3f(0, 1, 0); //Green
-        glVertex3f(-1, -1, 0);
+        glVertex3f(-1, -1, -1);
 
         glColor3f(0, 0, 1); //Blue
         glVertex3f(1, -1, 0);
@@ -60,13 +61,18 @@ int main(void) {
         glVertex2d(1, 0);
         glVertex2d(0.5, 0);
         glEnd();
+        unsigned int VBO;
+        unsigned int V2;
+        glBindBuffer(GL_ARRAY_BUFFER, VBO);
+        glBindBuffer(GL_ARRAY_BUFFER, V2);
+
 
 
         /******交换缓冲区，更新window上的内容******/
         glfwSwapBuffers(window);
-    }
 
-    glfwTerminate();
+
+    }
     return 0;
 
 }

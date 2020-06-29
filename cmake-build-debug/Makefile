@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_2_1_hello_triangle
+
+# Build rule for target.
+OpenGL_Demo_2_1_hello_triangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_2_1_hello_triangle
+.PHONY : OpenGL_Demo_2_1_hello_triangle
+
+# fast build rule for target.
+OpenGL_Demo_2_1_hello_triangle/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build
+.PHONY : OpenGL_Demo_2_1_hello_triangle/fast
+
+#=============================================================================
+# Target rules for targets named OpenGL_Demo1
+
+# Build rule for target.
+OpenGL_Demo1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo1
+.PHONY : OpenGL_Demo1
+
+# fast build rule for target.
+OpenGL_Demo1/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/build
+.PHONY : OpenGL_Demo1/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_1_1_hello_window
 
 # Build rule for target.
@@ -135,19 +161,6 @@ OpenGl_Demo2: cmake_check_build_system
 OpenGl_Demo2/fast:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/build
 .PHONY : OpenGl_Demo2/fast
-
-#=============================================================================
-# Target rules for targets named OpenGL_Demo1
-
-# Build rule for target.
-OpenGL_Demo1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo1
-.PHONY : OpenGL_Demo1
-
-# fast build rule for target.
-OpenGL_Demo1/fast:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/build
-.PHONY : OpenGL_Demo1/fast
 
 src/01_first_view.o: src/01_first_view.cpp.o
 
@@ -230,14 +243,42 @@ src/1.getting_started/1.1.hello_window/hello_window.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.s
 .PHONY : src/1.getting_started/1.1.hello_window/hello_window.cpp.s
 
+src/1.getting_started/2.1.hello_triangle/hello_triagnle.o: src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.o
+
+.PHONY : src/1.getting_started/2.1.hello_triangle/hello_triagnle.o
+
+# target to build an object file
+src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.o
+.PHONY : src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.o
+
+src/1.getting_started/2.1.hello_triangle/hello_triagnle.i: src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.i
+
+.PHONY : src/1.getting_started/2.1.hello_triangle/hello_triagnle.i
+
+# target to preprocess a source file
+src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.i
+.PHONY : src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.i
+
+src/1.getting_started/2.1.hello_triangle/hello_triagnle.s: src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.s
+
+.PHONY : src/1.getting_started/2.1.hello_triangle/hello_triagnle.s
+
+# target to generate assembly for a file
+src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.s
+.PHONY : src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -246,8 +287,9 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -256,8 +298,9 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -267,10 +310,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... OpenGL_Demo_2_1_hello_triangle"
+	@echo "... OpenGL_Demo1"
 	@echo "... edit_cache"
 	@echo "... OpenGL_Demo_1_1_hello_window"
 	@echo "... OpenGl_Demo2"
-	@echo "... OpenGL_Demo1"
 	@echo "... src/01_first_view.o"
 	@echo "... src/01_first_view.i"
 	@echo "... src/01_first_view.s"
@@ -280,6 +324,9 @@ help:
 	@echo "... src/1.getting_started/1.1.hello_window/hello_window.o"
 	@echo "... src/1.getting_started/1.1.hello_window/hello_window.i"
 	@echo "... src/1.getting_started/1.1.hello_window/hello_window.s"
+	@echo "... src/1.getting_started/2.1.hello_triangle/hello_triagnle.o"
+	@echo "... src/1.getting_started/2.1.hello_triangle/hello_triagnle.i"
+	@echo "... src/1.getting_started/2.1.hello_triangle/hello_triagnle.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

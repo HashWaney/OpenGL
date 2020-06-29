@@ -5,6 +5,7 @@
 #include "../../../include/glad/glad.h"
 #include "glfw3.h"
 #include "iostream"
+#include "glew.h"
 
 // 将glad.h文件放在所有的头文件之前，不然会报如下错误。
 //#include <glad/glad.h>必须放在所有头文件之前，不管在哪里，不管在.h还是.cpp;
@@ -57,7 +58,9 @@ int main() {
         cout << "Failed to initialize GLAD " << endl;
         return -1;
     }
+    //清屏颜色
     glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
+    //清屏颜色缓冲区 用上面指定的清屏颜色来填充，这样做有助于加快渲染，然后避免了闪屏
     glClear(GL_COLOR_BUFFER_BIT);
     // 渲染循环
     while (!glfwWindowShouldClose(window)) {
