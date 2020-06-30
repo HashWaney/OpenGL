@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_2_3_hello_triangle_exercise1
+
+# Build rule for target.
+OpenGL_Demo_2_3_hello_triangle_exercise1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_2_3_hello_triangle_exercise1
+.PHONY : OpenGL_Demo_2_3_hello_triangle_exercise1
+
+# fast build rule for target.
+OpenGL_Demo_2_3_hello_triangle_exercise1/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build
+.PHONY : OpenGL_Demo_2_3_hello_triangle_exercise1/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_2_2_hello_triangle_index
 
 # Build rule for target.
@@ -310,12 +323,40 @@ src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp.s
 .PHONY : src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp.s
 
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o: src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.o
+
+.PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o
+
+# target to build an object file
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.o
+.PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.o
+
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.i: src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.i
+
+.PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.i
+
+# target to preprocess a source file
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.i
+.PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.i
+
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.s: src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.s
+
+.PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.s
+
+# target to generate assembly for a file
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.s
+.PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
@@ -328,6 +369,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
@@ -340,6 +382,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
@@ -353,6 +396,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... OpenGL_Demo_2_3_hello_triangle_exercise1"
 	@echo "... OpenGL_Demo_2_2_hello_triangle_index"
 	@echo "... OpenGL_Demo_2_1_hello_triangle"
 	@echo "... OpenGL_Demo_1_1_hello_window"
@@ -374,6 +418,9 @@ help:
 	@echo "... src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.o"
 	@echo "... src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.i"
 	@echo "... src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.s"
+	@echo "... src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o"
+	@echo "... src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.i"
+	@echo "... src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

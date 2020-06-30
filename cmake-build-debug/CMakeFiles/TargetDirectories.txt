@@ -1,4 +1,5 @@
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_1_1_hello_window.dir

@@ -36,6 +36,9 @@ add_executable(OpenGL_Demo_2_2_hello_triangle_index
         src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp
         src/glad.c)
 
+add_executable(OpenGL_Demo_2_3_hello_triangle_exercise1
+        src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp
+        src/glad.c)
 
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
@@ -51,4 +54,7 @@ if (APPLE)
     #2.2 hello triangle index
     target_link_libraries(OpenGL_Demo_2_2_hello_triangle_index "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_2_2_hello_triangle_index "-framework GLUT")
+    #2.3 hello triangle exercise 1
+    target_link_libraries(OpenGL_Demo_2_3_hello_triangle_exercise1 "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_2_3_hello_triangle_exercise1 "-framework GLUT")
 endif ()
