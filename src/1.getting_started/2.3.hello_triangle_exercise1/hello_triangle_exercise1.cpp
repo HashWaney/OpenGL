@@ -57,18 +57,12 @@ int main() {
         return -1;
     }
 
-
-    cout << " create shader start  " << endl;
     //create shader todo glCreateShader 函数无法直接使用，需要通过glad加载函数指针才能使用
     int vertexShader = glCreateShader(GL_VERTEX_SHADER);
-    cout << " create shader  end " << endl;
     //attach shader source to vertexShader
-    cout << " shader source vertex " << endl;
     glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
     //compile shader
-    cout << " vertex shader compile " << endl;
     glCompileShader(vertexShader);
-    cout << " compile vertex shader" << endl;
     //check compile
     int success;
     char shaderInfo[512];
@@ -78,7 +72,6 @@ int main() {
         cout << " compile vertex shader error " << shaderInfo << endl;
     }
 
-    cout << "create frag shader" << endl;
     //create frag shader
     int fragShader = glCreateShader(GL_FRAGMENT_SHADER);
     //attach shader source to fragShader
@@ -118,7 +111,12 @@ int main() {
             //second triangle
             0.0f, -0.5f, 0.0f,
             0.9f, -0.5f, 0.0f,
-            0.45f, 0.5f, 0.0f
+            0.45f, 0.5f, 0.0f,
+
+            -0.45f,0.5f,0.0f,
+            0.45f,0.5f,0.0f,
+            0.f,-0.5f,0.0f
+
     };
 
     //create vbo vao
@@ -136,11 +134,9 @@ int main() {
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *) 0);
     //enable vertex attrib
     glEnableVertexAttribArray(0);
-    cout << " start render " << endl;
     // render loop
     while (!glfwWindowShouldClose(window)) {
 
-        cout << " join render " << endl;
         //input register
         processInput(window);
 
@@ -151,7 +147,7 @@ int main() {
         //use program to render the screen
         glUseProgram(shaderProgram);
         // draw something
-        glDrawArrays(GL_TRIANGLES, 0, 6);
+        glDrawArrays(GL_TRIANGLES, 0, 9);
         //swap the buffer
         glfwSwapBuffers(window);
         //poll the render and input event

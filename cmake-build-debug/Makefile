@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_2_4_hello_triangle_exercise2
+
+# Build rule for target.
+OpenGL_Demo_2_4_hello_triangle_exercise2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_2_4_hello_triangle_exercise2
+.PHONY : OpenGL_Demo_2_4_hello_triangle_exercise2
+
+# fast build rule for target.
+OpenGL_Demo_2_4_hello_triangle_exercise2/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build
+.PHONY : OpenGL_Demo_2_4_hello_triangle_exercise2/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_2_3_hello_triangle_exercise1
 
 # Build rule for target.
@@ -122,6 +135,19 @@ OpenGL_Demo_2_3_hello_triangle_exercise1: cmake_check_build_system
 OpenGL_Demo_2_3_hello_triangle_exercise1/fast:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build
 .PHONY : OpenGL_Demo_2_3_hello_triangle_exercise1/fast
+
+#=============================================================================
+# Target rules for targets named OpenGL_Demo_2_5_hello_triangle_exercise3
+
+# Build rule for target.
+OpenGL_Demo_2_5_hello_triangle_exercise3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_2_5_hello_triangle_exercise3
+.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3
+
+# fast build rule for target.
+OpenGL_Demo_2_5_hello_triangle_exercise3/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build
+.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3/fast
 
 #=============================================================================
 # Target rules for targets named OpenGL_Demo_2_2_hello_triangle_index
@@ -350,13 +376,69 @@ src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.s
 .PHONY : src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.s
 
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.o: src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.o
+
+.PHONY : src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.o
+
+# target to build an object file
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.o
+.PHONY : src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.o
+
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.i: src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.i
+
+.PHONY : src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.i
+
+# target to preprocess a source file
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.i
+.PHONY : src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.i
+
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.s: src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.s
+
+.PHONY : src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.s
+
+# target to generate assembly for a file
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.s
+.PHONY : src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.s
+
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.o: src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.o
+
+.PHONY : src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.o
+
+# target to build an object file
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.o
+.PHONY : src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.o
+
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.i: src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.i
+
+.PHONY : src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.i
+
+# target to preprocess a source file
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.i
+.PHONY : src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.i
+
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.s: src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.s
+
+.PHONY : src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.s
+
+# target to generate assembly for a file
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.s
+.PHONY : src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
@@ -369,7 +451,9 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
@@ -382,7 +466,9 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
@@ -396,7 +482,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... OpenGL_Demo_2_4_hello_triangle_exercise2"
 	@echo "... OpenGL_Demo_2_3_hello_triangle_exercise1"
+	@echo "... OpenGL_Demo_2_5_hello_triangle_exercise3"
 	@echo "... OpenGL_Demo_2_2_hello_triangle_index"
 	@echo "... OpenGL_Demo_2_1_hello_triangle"
 	@echo "... OpenGL_Demo_1_1_hello_window"
@@ -421,6 +509,12 @@ help:
 	@echo "... src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o"
 	@echo "... src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.i"
 	@echo "... src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.s"
+	@echo "... src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.o"
+	@echo "... src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.i"
+	@echo "... src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.s"
+	@echo "... src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.o"
+	@echo "... src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.i"
+	@echo "... src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
