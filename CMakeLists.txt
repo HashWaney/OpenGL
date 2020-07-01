@@ -46,7 +46,9 @@ add_executable(OpenGL_Demo_2_4_hello_triangle_exercise2
 add_executable(OpenGL_Demo_2_5_hello_triangle_exercise3
         src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp
         src/glad.c)
-
+add_executable(OpenGL_Demo_3_1_shaders_uniform
+        src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp
+        src/glad.c)
 
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
@@ -71,4 +73,7 @@ if (APPLE)
     #2.5 hello triangle exercise 3
     target_link_libraries(OpenGL_Demo_2_5_hello_triangle_exercise3 "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_2_5_hello_triangle_exercise3 "-framework GLUT")
+    #3.1 shaders uniform
+    target_link_libraries(OpenGL_Demo_3_1_shaders_uniform "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_3_1_shaders_uniform "-framework GLUT")
 endif ()

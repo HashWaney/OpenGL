@@ -27,6 +27,54 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OpenGL_Demo_3_1_shaders_uniform">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_3_1_shaders_uniform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_1_shaders_uniform"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_3_1_shaders_uniform/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_3_1_shaders_uniform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_1_shaders_uniform/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="OpenGL_Demo_2_4_hello_triangle_exercise2">
 				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_4_hello_triangle_exercise2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
@@ -446,7 +494,11 @@
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp">
 			<Option target="OpenGL_Demo_2_5_hello_triangle_exercise3"/>
 		</Unit>
+		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp">
+			<Option target="OpenGL_Demo_3_1_shaders_uniform"/>
+		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c">
+			<Option target="OpenGL_Demo_3_1_shaders_uniform"/>
 			<Option target="OpenGL_Demo_2_4_hello_triangle_exercise2"/>
 			<Option target="OpenGL_Demo_2_3_hello_triangle_exercise1"/>
 			<Option target="OpenGL_Demo_2_5_hello_triangle_exercise3"/>
