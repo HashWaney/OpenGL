@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glew/2.1.0/include/GL"
   "/usr/local/Cellar/glfw/3.3/include/GLFW"
   "../../include/glad"
+  "../../include/learnopengl"
   )
 
 # Targets to which this target links.

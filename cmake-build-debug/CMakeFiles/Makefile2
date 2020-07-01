@@ -53,15 +53,17 @@ CMAKE_BINARY_DIR = /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/all
+all: CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
 all: CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/all
 all: CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/all
+all: CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/all
 all: CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/all
-all: CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
+all: CMakeFiles/OpenGL_Demo1.dir/all
 all: CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/all
 all: CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/all
 all: CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/all
 all: CMakeFiles/OpenGl_Demo2.dir/all
-all: CMakeFiles/OpenGL_Demo1.dir/all
 
 .PHONY : all
 
@@ -71,17 +73,73 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/clean
+clean: CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean
 clean: CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/clean
 clean: CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/clean
+clean: CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/clean
 clean: CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/clean
-clean: CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean
+clean: CMakeFiles/OpenGL_Demo1.dir/clean
 clean: CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/clean
 clean: CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/clean
 clean: CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/clean
 clean: CMakeFiles/OpenGl_Demo2.dir/clean
-clean: CMakeFiles/OpenGL_Demo1.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir
+
+# All Build rule for target.
+CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/all:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/depend
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target OpenGL_Demo_3_3_shaders_class"
+.PHONY : CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/rule
+
+# Convenience name for target.
+OpenGL_Demo_3_3_shaders_class: CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/rule
+
+.PHONY : OpenGL_Demo_3_3_shaders_class
+
+# clean rule for target.
+CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/clean
+.PHONY : CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir
+
+# All Build rule for target.
+CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/depend
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target OpenGL_Demo_2_5_hello_triangle_exercise3"
+.PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/rule
+
+# Convenience name for target.
+OpenGL_Demo_2_5_hello_triangle_exercise3: CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/rule
+
+.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3
+
+# clean rule for target.
+CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean
+.PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir
@@ -138,6 +196,33 @@ CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/clean:
 .PHONY : CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir
+
+# All Build rule for target.
+CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/all:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/depend
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target OpenGL_Demo_3_2_shaders_interpolation"
+.PHONY : CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/rule
+
+# Convenience name for target.
+OpenGL_Demo_3_2_shaders_interpolation: CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/rule
+
+.PHONY : OpenGL_Demo_3_2_shaders_interpolation
+
+# clean rule for target.
+CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/clean
+.PHONY : CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir
 
 # All Build rule for target.
@@ -165,31 +250,31 @@ CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/clean:
 .PHONY : CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir
+# Target rules for target CMakeFiles/OpenGL_Demo1.dir
 
 # All Build rule for target.
-CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/depend
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target OpenGL_Demo_2_5_hello_triangle_exercise3"
-.PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
+CMakeFiles/OpenGL_Demo1.dir/all:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/depend
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target OpenGL_Demo1"
+.PHONY : CMakeFiles/OpenGL_Demo1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/rule: cmake_check_build_system
+CMakeFiles/OpenGL_Demo1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/rule
+.PHONY : CMakeFiles/OpenGL_Demo1.dir/rule
 
 # Convenience name for target.
-OpenGL_Demo_2_5_hello_triangle_exercise3: CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/rule
+OpenGL_Demo1: CMakeFiles/OpenGL_Demo1.dir/rule
 
-.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3
+.PHONY : OpenGL_Demo1
 
 # clean rule for target.
-CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean
-.PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean
+CMakeFiles/OpenGL_Demo1.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/clean
+.PHONY : CMakeFiles/OpenGL_Demo1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir
@@ -279,7 +364,7 @@ CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/clean:
 CMakeFiles/OpenGl_Demo2.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target OpenGl_Demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target OpenGl_Demo2"
 .PHONY : CMakeFiles/OpenGl_Demo2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,33 +383,6 @@ OpenGl_Demo2: CMakeFiles/OpenGl_Demo2.dir/rule
 CMakeFiles/OpenGl_Demo2.dir/clean:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/clean
 .PHONY : CMakeFiles/OpenGl_Demo2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/OpenGL_Demo1.dir
-
-# All Build rule for target.
-CMakeFiles/OpenGL_Demo1.dir/all:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/depend
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target OpenGL_Demo1"
-.PHONY : CMakeFiles/OpenGL_Demo1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/OpenGL_Demo1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/OpenGL_Demo1.dir/rule
-
-# Convenience name for target.
-OpenGL_Demo1: CMakeFiles/OpenGL_Demo1.dir/rule
-
-.PHONY : OpenGL_Demo1
-
-# clean rule for target.
-CMakeFiles/OpenGL_Demo1.dir/clean:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/clean
-.PHONY : CMakeFiles/OpenGL_Demo1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

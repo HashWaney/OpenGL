@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_3_3_shaders_class
+
+# Build rule for target.
+OpenGL_Demo_3_3_shaders_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_3_3_shaders_class
+.PHONY : OpenGL_Demo_3_3_shaders_class
+
+# fast build rule for target.
+OpenGL_Demo_3_3_shaders_class/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build
+.PHONY : OpenGL_Demo_3_3_shaders_class/fast
+
+#=============================================================================
+# Target rules for targets named OpenGL_Demo_2_5_hello_triangle_exercise3
+
+# Build rule for target.
+OpenGL_Demo_2_5_hello_triangle_exercise3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_2_5_hello_triangle_exercise3
+.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3
+
+# fast build rule for target.
+OpenGL_Demo_2_5_hello_triangle_exercise3/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build
+.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_3_1_shaders_uniform
 
 # Build rule for target.
@@ -137,6 +163,19 @@ OpenGL_Demo_2_4_hello_triangle_exercise2/fast:
 .PHONY : OpenGL_Demo_2_4_hello_triangle_exercise2/fast
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_3_2_shaders_interpolation
+
+# Build rule for target.
+OpenGL_Demo_3_2_shaders_interpolation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_3_2_shaders_interpolation
+.PHONY : OpenGL_Demo_3_2_shaders_interpolation
+
+# fast build rule for target.
+OpenGL_Demo_3_2_shaders_interpolation/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build
+.PHONY : OpenGL_Demo_3_2_shaders_interpolation/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_2_3_hello_triangle_exercise1
 
 # Build rule for target.
@@ -150,17 +189,17 @@ OpenGL_Demo_2_3_hello_triangle_exercise1/fast:
 .PHONY : OpenGL_Demo_2_3_hello_triangle_exercise1/fast
 
 #=============================================================================
-# Target rules for targets named OpenGL_Demo_2_5_hello_triangle_exercise3
+# Target rules for targets named OpenGL_Demo1
 
 # Build rule for target.
-OpenGL_Demo_2_5_hello_triangle_exercise3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_2_5_hello_triangle_exercise3
-.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3
+OpenGL_Demo1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo1
+.PHONY : OpenGL_Demo1
 
 # fast build rule for target.
-OpenGL_Demo_2_5_hello_triangle_exercise3/fast:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build
-.PHONY : OpenGL_Demo_2_5_hello_triangle_exercise3/fast
+OpenGL_Demo1/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/build
+.PHONY : OpenGL_Demo1/fast
 
 #=============================================================================
 # Target rules for targets named OpenGL_Demo_2_2_hello_triangle_index
@@ -213,19 +252,6 @@ OpenGl_Demo2: cmake_check_build_system
 OpenGl_Demo2/fast:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/build
 .PHONY : OpenGl_Demo2/fast
-
-#=============================================================================
-# Target rules for targets named OpenGL_Demo1
-
-# Build rule for target.
-OpenGL_Demo1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo1
-.PHONY : OpenGL_Demo1
-
-# fast build rule for target.
-OpenGL_Demo1/fast:
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/build
-.PHONY : OpenGL_Demo1/fast
 
 src/01_first_view.o: src/01_first_view.cpp.o
 
@@ -470,20 +496,76 @@ src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s
 .PHONY : src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s
 
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.o: src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.o
+
+.PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.o
+
+# target to build an object file
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.o
+.PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.o
+
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.i: src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.i
+
+.PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.i
+
+# target to preprocess a source file
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.i
+.PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.i
+
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.s: src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.s
+
+.PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.s
+
+# target to generate assembly for a file
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.s
+.PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.s
+
+src/1.getting_started/3.3.shaders_class/shaders_class.o: src/1.getting_started/3.3.shaders_class/shaders_class.cpp.o
+
+.PHONY : src/1.getting_started/3.3.shaders_class/shaders_class.o
+
+# target to build an object file
+src/1.getting_started/3.3.shaders_class/shaders_class.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/1.getting_started/3.3.shaders_class/shaders_class.cpp.o
+.PHONY : src/1.getting_started/3.3.shaders_class/shaders_class.cpp.o
+
+src/1.getting_started/3.3.shaders_class/shaders_class.i: src/1.getting_started/3.3.shaders_class/shaders_class.cpp.i
+
+.PHONY : src/1.getting_started/3.3.shaders_class/shaders_class.i
+
+# target to preprocess a source file
+src/1.getting_started/3.3.shaders_class/shaders_class.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/1.getting_started/3.3.shaders_class/shaders_class.cpp.i
+.PHONY : src/1.getting_started/3.3.shaders_class/shaders_class.cpp.i
+
+src/1.getting_started/3.3.shaders_class/shaders_class.s: src/1.getting_started/3.3.shaders_class/shaders_class.cpp.s
+
+.PHONY : src/1.getting_started/3.3.shaders_class/shaders_class.s
+
+# target to generate assembly for a file
+src/1.getting_started/3.3.shaders_class/shaders_class.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/1.getting_started/3.3.shaders_class/shaders_class.cpp.s
+.PHONY : src/1.getting_started/3.3.shaders_class/shaders_class.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.o
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -492,14 +574,16 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.i
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -508,14 +592,16 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.s
-	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
-	$(MAKE) -f CMakeFiles/OpenGL_Demo1.dir/build.make CMakeFiles/OpenGL_Demo1.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -525,16 +611,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... OpenGL_Demo_3_3_shaders_class"
+	@echo "... OpenGL_Demo_2_5_hello_triangle_exercise3"
 	@echo "... OpenGL_Demo_3_1_shaders_uniform"
 	@echo "... OpenGL_Demo_2_4_hello_triangle_exercise2"
+	@echo "... OpenGL_Demo_3_2_shaders_interpolation"
+	@echo "... edit_cache"
 	@echo "... OpenGL_Demo_2_3_hello_triangle_exercise1"
-	@echo "... OpenGL_Demo_2_5_hello_triangle_exercise3"
+	@echo "... OpenGL_Demo1"
 	@echo "... OpenGL_Demo_2_2_hello_triangle_index"
 	@echo "... OpenGL_Demo_2_1_hello_triangle"
 	@echo "... OpenGL_Demo_1_1_hello_window"
 	@echo "... OpenGl_Demo2"
-	@echo "... edit_cache"
-	@echo "... OpenGL_Demo1"
 	@echo "... src/01_first_view.o"
 	@echo "... src/01_first_view.i"
 	@echo "... src/01_first_view.s"
@@ -562,6 +650,12 @@ help:
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.i"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.s"
+	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.o"
+	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.i"
+	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.s"
+	@echo "... src/1.getting_started/3.3.shaders_class/shaders_class.o"
+	@echo "... src/1.getting_started/3.3.shaders_class/shaders_class.i"
+	@echo "... src/1.getting_started/3.3.shaders_class/shaders_class.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(GLEW_H /usr/local/Cellar/glew/2.1.0/include/GL)
 set(GLFW_H /usr/local/Cellar/glfw/3.3/include/GLFW)
 set(GLAD_H ../include/glad)
-include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H})
+set(OPENGL_H ../include/learnopengl)
+include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H} ${OPENGL_H})
 #添加目标连接
 set(GLEW_LINK /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib)
 set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
@@ -50,6 +51,12 @@ add_executable(OpenGL_Demo_3_1_shaders_uniform
         src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp
         src/glad.c)
 
+add_executable(OpenGL_Demo_3_2_shaders_interpolation
+        src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp
+        src/glad.c)
+add_executable(OpenGL_Demo_3_3_shaders_class
+        src/1.getting_started/3.3.shaders_class/shaders_class.cpp
+        src/glad.c)
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -76,4 +83,10 @@ if (APPLE)
     #3.1 shaders uniform
     target_link_libraries(OpenGL_Demo_3_1_shaders_uniform "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_3_1_shaders_uniform "-framework GLUT")
+    #3.2 shader interpolation
+    target_link_libraries(OpenGL_Demo_3_2_shaders_interpolation "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_3_2_shaders_interpolation "-framework GLUT")
+    #3.3 shader class
+    target_link_libraries(OpenGL_Demo_3_3_shaders_class "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_3_3_shaders_class "-framework GLUT")
 endif ()

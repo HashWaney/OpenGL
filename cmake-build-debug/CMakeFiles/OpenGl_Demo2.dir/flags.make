@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad 
+CXX_INCLUDES = -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad -I/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl 
 
