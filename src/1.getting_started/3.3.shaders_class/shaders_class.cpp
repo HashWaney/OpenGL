@@ -72,7 +72,7 @@ int main() {
     }
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
-//    shaderTool.deleteID();
+    shaderTool.deleteID();
     glfwTerminate();
     return 0;
 }
