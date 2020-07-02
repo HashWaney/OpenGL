@@ -15,6 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glfw/3.3/include/GLFW"
   "../../include/glad"
   "../../include/learnopengl"
+  "configuration"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/01_first_view.cpp" "/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo1.dir/src/01_first_view.cpp.o"
@@ -27,6 +28,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glfw/3.3/include/GLFW"
   "../../include/glad"
   "../../include/learnopengl"
+  "configuration"
   )
 
 # Targets to which this target links.

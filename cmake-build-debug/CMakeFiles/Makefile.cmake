@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeSystem.cmake"
+  "../configuration/root_directory.h.in"
   )
 
 # The corresponding makefile is:
@@ -47,20 +48,24 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "configuration/root_directory.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/DependInfo.cmake"
-  "CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/DependInfo.cmake"
-  "CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo1.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/DependInfo.cmake"
   "CMakeFiles/OpenGl_Demo2.dir/DependInfo.cmake"
+  "CMakeFiles/GLAD.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo_4_1_texture.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/DependInfo.cmake"
+  "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   )

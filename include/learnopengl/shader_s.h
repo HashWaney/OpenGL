@@ -42,46 +42,48 @@ public:
             // convert stream into string
             vertexCode = vShaderStream.str();
             fragmentCode = fShaderStream.str();
-            if (vertexCode.c_str() != NULL) {
-                cout << "vertexCode is not null \n" << vertexCode.c_str() << endl;
-            }
-            if (fragmentCode.c_str() != NULL) {
-                cout << "fragCode is not null\n" << fragmentCode.c_str() << endl;
-            }
-
-            cout << " begin create shader " << endl;
-            const char *vShaderCode = vertexCode.c_str();
-            const char *fShaderCode = fragmentCode.c_str();
-            cout << " ok begin create  shader variable " << endl;
-            // 2. compile shaders
-            unsigned int vertex, fragment;
-            // vertex shader
-            cout << "oh glCreate Vertex Shader Shader start " << endl;
-            ///没有通过glad加载gl函数，导致这里直接崩溃，因为只有将gl函数加载到当前的上下文中，才能使用glXXX函数。
-            vertex = glCreateShader(GL_VERTEX_SHADER);
-            cout << "oh glCreate Vertex Shader Shader end " << endl;
-            cout << "shader attach source  start " << endl;
-            glShaderSource(vertex, 1, &vShaderCode, NULL);
-            cout << "shader attach source end" << endl;
-            glCompileShader(vertex);
-            checkCompileErrors(vertex, "VERTEX");
-            // fragment Shader
-            fragment = glCreateShader(GL_FRAGMENT_SHADER);
-            glShaderSource(fragment, 1, &fShaderCode, NULL);
-            glCompileShader(fragment);
-            checkCompileErrors(fragment, "FRAGMENT");
-            // shader Program
-            ID = glCreateProgram();
-            glAttachShader(ID, vertex);
-            glAttachShader(ID, fragment);
-            glLinkProgram(ID);
-            checkCompileErrors(ID, "PROGRAM");
-            // delete the shaders as they're linked into our program now and no longer necessary
-            glDeleteShader(vertex);
-            glDeleteShader(fragment);
         } catch (std::ifstream::failure &e) {
             cout << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ == " << endl;
         }
+
+        if (vertexCode.c_str() != NULL) {
+            cout << "vertexCode is not null \n" << vertexCode.c_str() << endl;
+        }
+        if (fragmentCode.c_str() != NULL) {
+            cout << "fragCode is not null\n" << fragmentCode.c_str() << endl;
+        }
+
+        cout << " begin create shader " << endl;
+        const char *vShaderCode = vertexCode.c_str();
+        const char *fShaderCode = fragmentCode.c_str();
+        cout << " ok begin create  shader variable " << endl;
+        // 2. compile shaders
+        unsigned int vertex, fragment;
+        // vertex shader
+        cout << "oh glCreate Vertex Shader Shader start " << endl;
+        ///没有通过glad加载gl函数，导致这里直接崩溃，因为只有将gl函数加载到当前的上下文中，才能使用glXXX函数。
+        vertex = glCreateShader(GL_VERTEX_SHADER);
+        cout << "oh glCreate Vertex Shader Shader end " << endl;
+        cout << "shader attach source  start " << endl;
+        glShaderSource(vertex, 1, &vShaderCode, NULL);
+        cout << "shader attach source end" << endl;
+        glCompileShader(vertex);
+        checkCompileErrors(vertex, "VERTEX");
+        // fragment Shader
+        fragment = glCreateShader(GL_FRAGMENT_SHADER);
+        glShaderSource(fragment, 1, &fShaderCode, NULL);
+        glCompileShader(fragment);
+        checkCompileErrors(fragment, "FRAGMENT");
+        // shader Program
+        ID = glCreateProgram();
+        glAttachShader(ID, vertex);
+        glAttachShader(ID, fragment);
+        glLinkProgram(ID);
+        checkCompileErrors(ID, "PROGRAM");
+        // delete the shaders as they're linked into our program now and no longer necessary
+        glDeleteShader(vertex);
+        glDeleteShader(fragment);
+
     }
 
     // activate the shader

@@ -15,6 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glfw/3.3/include/GLFW"
   "../../include/glad"
   "../../include/learnopengl"
+  "configuration"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp" "/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.o"
@@ -27,6 +28,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glfw/3.3/include/GLFW"
   "../../include/glad"
   "../../include/learnopengl"
+  "configuration"
   )
 
 # Targets to which this target links.

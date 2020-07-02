@@ -1,0 +1,1 @@
+const char * logl_root = "/Users/wangqing/Desktop/JNI/CPP/OpenGl";

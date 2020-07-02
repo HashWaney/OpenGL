@@ -5,7 +5,7 @@
 		<Option title="OpenGL_Demo"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\configuration\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
@@ -38,6 +38,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -63,6 +64,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -72,156 +74,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_3_shaders_class/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_2_5_hello_triangle_exercise3">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_5_hello_triangle_exercise3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_5_hello_triangle_exercise3"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_2_5_hello_triangle_exercise3/fast">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_5_hello_triangle_exercise3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_5_hello_triangle_exercise3/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_3_1_shaders_uniform">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_3_1_shaders_uniform" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_1_shaders_uniform"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_3_1_shaders_uniform/fast">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_3_1_shaders_uniform" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_1_shaders_uniform/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_2_4_hello_triangle_exercise2">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_4_hello_triangle_exercise2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_4_hello_triangle_exercise2"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_2_4_hello_triangle_exercise2/fast">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_4_hello_triangle_exercise2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
-					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_4_hello_triangle_exercise2/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -238,6 +90,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -263,6 +116,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -277,18 +131,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OpenGL_Demo_2_3_hello_triangle_exercise1">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_3_hello_triangle_exercise1" prefix_auto="0" extension_auto="0"/>
+			<Target title="OpenGL_Demo_2_5_hello_triangle_exercise3">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_5_hello_triangle_exercise3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -298,6 +142,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -306,14 +151,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_3_hello_triangle_exercise1"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_5_hello_triangle_exercise3"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="OpenGL_Demo_2_3_hello_triangle_exercise1/fast">
-				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_3_hello_triangle_exercise1" prefix_auto="0" extension_auto="0"/>
+			<Target title="OpenGL_Demo_2_5_hello_triangle_exercise3/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_5_hello_triangle_exercise3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -323,6 +168,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -331,7 +177,111 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_3_hello_triangle_exercise1/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_5_hello_triangle_exercise3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_3_1_shaders_uniform">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_3_1_shaders_uniform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_1_shaders_uniform"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_3_1_shaders_uniform/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_3_1_shaders_uniform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_3_1_shaders_uniform/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_2_4_hello_triangle_exercise2">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_4_hello_triangle_exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_4_hello_triangle_exercise2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_2_4_hello_triangle_exercise2/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_4_hello_triangle_exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_4_hello_triangle_exercise2/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -348,6 +298,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -373,6 +324,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -398,6 +350,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -423,6 +376,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -448,6 +402,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -473,6 +428,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -498,6 +454,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -523,6 +480,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -548,6 +506,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -573,6 +532,7 @@
 					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
 					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -582,6 +542,224 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGl_Demo2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_4_1_texture">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_4_1_texture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_4_1_texture"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_4_1_texture/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_4_1_texture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_4_1_texture/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_2_3_hello_triangle_exercise1">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_3_hello_triangle_exercise1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_3_hello_triangle_exercise1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_2_3_hello_triangle_exercise1/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_2_3_hello_triangle_exercise1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_2_3_hello_triangle_exercise1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -621,20 +799,32 @@
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.3.shaders_class/shaders_class.cpp">
 			<Option target="OpenGL_Demo_3_3_shaders_class"/>
 		</Unit>
+		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.1.textures/textures.cpp">
+			<Option target="OpenGL_Demo_4_1_texture"/>
+		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c">
 			<Option target="OpenGL_Demo_3_3_shaders_class"/>
+			<Option target="OpenGL_Demo_3_2_shaders_interpolation"/>
 			<Option target="OpenGL_Demo_2_5_hello_triangle_exercise3"/>
 			<Option target="OpenGL_Demo_3_1_shaders_uniform"/>
 			<Option target="OpenGL_Demo_2_4_hello_triangle_exercise2"/>
-			<Option target="OpenGL_Demo_3_2_shaders_interpolation"/>
-			<Option target="OpenGL_Demo_2_3_hello_triangle_exercise1"/>
 			<Option target="OpenGL_Demo1"/>
 			<Option target="OpenGL_Demo_2_2_hello_triangle_index"/>
 			<Option target="OpenGL_Demo_2_1_hello_triangle"/>
 			<Option target="OpenGL_Demo_1_1_hello_window"/>
+			<Option target="GLAD"/>
+			<Option target="OpenGL_Demo_4_1_texture"/>
+			<Option target="OpenGL_Demo_2_3_hello_triangle_exercise1"/>
+		</Unit>
+		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp">
+			<Option target="OpenGL_Demo_4_1_texture"/>
+			<Option target="STB_IMAGE"/>
 		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/configuration/root_directory.h.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
