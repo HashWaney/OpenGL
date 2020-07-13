@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/DependInfo.cmake"

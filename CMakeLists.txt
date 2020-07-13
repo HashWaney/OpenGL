@@ -70,6 +70,12 @@ add_executable(OpenGL_Demo_4_1_texture
         src/stb_image.cpp
         )
 
+add_executable(OpenGL_Demo_4_2_textures_combined
+        src/1.getting_started/4.2.textures_combined/textures_combined.cpp
+        src/glad.c
+        src/stb_image.cpp
+        )
+
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -105,5 +111,8 @@ if (APPLE)
     #4.1 texture
     target_link_libraries(OpenGL_Demo_4_1_texture "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_4_1_texture "-framework GLUT")
+    #4.2 textures combined
+    target_link_libraries(OpenGL_Demo_4_2_textures_combined "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_4_2_textures_combined "-framework GLUT")
 
 endif ()
