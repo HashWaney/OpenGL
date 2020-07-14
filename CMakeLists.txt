@@ -9,7 +9,8 @@ set(GLFW_H /usr/local/Cellar/glfw/3.3/include/GLFW)
 set(GLAD_H ../include/glad)
 set(OPENGL_H ../include/learnopengl)
 set(STB_H ../include/stb)
-include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H} ${OPENGL_H})
+set(GLM_H ../include/glm)
+include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H} ${OPENGL_H} ${GLM_H})
 #添加目标连接
 set(GLEW_LINK /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib)
 set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
@@ -81,8 +82,18 @@ add_executable(OpenGL_Demo_4_3_textures_exercise1
         src/glad.c
         src/stb_image.cpp)
 
-add_executable(OpenGL_Demo_4_3_textures_exercise2
-        src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp
+add_executable(OpenGL_Demo_4_4_textures_exercise2
+        src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp
+        src/glad.c
+        src/stb_image.cpp)
+
+add_executable(OpenGL_Demo_4_5_textures_exercise3
+        src/1.getting_started/4.5.textures_exercise3/textures_exercise3.cpp
+        src/glad.c
+        src/stb_image.cpp
+        )
+add_executable(OpenGL_Demo_5_1_transform
+        src/1.getting_started/5.1.transformations/transformations.cpp
         src/glad.c
         src/stb_image.cpp)
 if (APPLE)
@@ -126,8 +137,14 @@ if (APPLE)
     #4.3 textures_exercise1
     target_link_libraries(OpenGL_Demo_4_3_textures_exercise1 "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_4_3_textures_exercise1 "-framework GLUT")
+    #4.4 textures_exercise2
+    target_link_libraries(OpenGL_Demo_4_4_textures_exercise2 "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_4_4_textures_exercise2 "-framework GLUT")
+    #4.5 textures_exercise3
+    target_link_libraries(OpenGL_Demo_4_5_textures_exercise3 "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_4_5_textures_exercise3 "-framework GLUT")
+    #5.1 transform
+    target_link_libraries(OpenGL_Demo_5_1_transform "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_5_1_transform "-framework GLUT")
 
-    #4.3 textures_exercise2
-    target_link_libraries(OpenGL_Demo_4_3_textures_exercise2 "-framework OpenGL")
-    target_link_libraries(OpenGL_Demo_4_3_textures_exercise2 "-framework GLUT")
 endif ()

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o"
+  "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o"
   "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.o"
   "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.o"
   "OpenGL_Demo_4_3_textures_exercise2"

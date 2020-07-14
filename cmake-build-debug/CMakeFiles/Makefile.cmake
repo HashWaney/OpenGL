@@ -54,7 +54,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/DependInfo.cmake"
@@ -64,10 +66,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGL_Demo1.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo_5_1_transform.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/DependInfo.cmake"
   "CMakeFiles/OpenGl_Demo2.dir/DependInfo.cmake"
   "CMakeFiles/GLAD.dir/DependInfo.cmake"
-  "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_1_texture.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"

@@ -14,6 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glfw/3.3/include/GLFW"
   "../../include/glad"
   "../../include/learnopengl"
+  "../../include/glm"
   "configuration"
   )
 

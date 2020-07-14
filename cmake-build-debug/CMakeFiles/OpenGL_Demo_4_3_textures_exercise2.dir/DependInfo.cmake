@@ -18,7 +18,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "configuration"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp" "/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o"
+  "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp" "/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o"
   "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp" "/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

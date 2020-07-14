@@ -57,18 +57,18 @@ include CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/flags.make
 
-CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/flags.make
-CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o: ../src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp
+CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/flags.make
+CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o: ../src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp
 
-CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp > CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i
+CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp > CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.i
 
-CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s
+CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.s
 
 CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.o: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/flags.make
 CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.o: ../src/glad.c
@@ -98,14 +98,14 @@ CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.s: cmake_for
 
 # Object files for target OpenGL_Demo_4_3_textures_exercise2
 OpenGL_Demo_4_3_textures_exercise2_OBJECTS = \
-"CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o" \
+"CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o" \
 "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.o" \
 "CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.o"
 
 # External object files for target OpenGL_Demo_4_3_textures_exercise2
 OpenGL_Demo_4_3_textures_exercise2_EXTERNAL_OBJECTS =
 
-OpenGL_Demo_4_3_textures_exercise2: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o
+OpenGL_Demo_4_3_textures_exercise2: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o
 OpenGL_Demo_4_3_textures_exercise2: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.o
 OpenGL_Demo_4_3_textures_exercise2: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.o
 OpenGL_Demo_4_3_textures_exercise2: CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make
