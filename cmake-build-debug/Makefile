@@ -150,6 +150,19 @@ OpenGL_Demo_3_2_shaders_interpolation/fast:
 .PHONY : OpenGL_Demo_3_2_shaders_interpolation/fast
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_4_3_textures_exercise1
+
+# Build rule for target.
+OpenGL_Demo_4_3_textures_exercise1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_4_3_textures_exercise1
+.PHONY : OpenGL_Demo_4_3_textures_exercise1
+
+# fast build rule for target.
+OpenGL_Demo_4_3_textures_exercise1/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build
+.PHONY : OpenGL_Demo_4_3_textures_exercise1/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_2_5_hello_triangle_exercise3
 
 # Build rule for target.
@@ -265,6 +278,19 @@ GLAD: cmake_check_build_system
 GLAD/fast:
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
 .PHONY : GLAD/fast
+
+#=============================================================================
+# Target rules for targets named OpenGL_Demo_4_3_textures_exercise2
+
+# Build rule for target.
+OpenGL_Demo_4_3_textures_exercise2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_4_3_textures_exercise2
+.PHONY : OpenGL_Demo_4_3_textures_exercise2
+
+# fast build rule for target.
+OpenGL_Demo_4_3_textures_exercise2/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build
+.PHONY : OpenGL_Demo_4_3_textures_exercise2/fast
 
 #=============================================================================
 # Target rules for targets named OpenGL_Demo_4_1_texture
@@ -656,6 +682,60 @@ src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s
 .PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s
 
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.o: src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.o
+
+.PHONY : src/1.getting_started/4.3.textures_exercise1/textures_exercise1.o
+
+# target to build an object file
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.o
+.PHONY : src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.o
+
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.i: src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.i
+
+.PHONY : src/1.getting_started/4.3.textures_exercise1/textures_exercise1.i
+
+# target to preprocess a source file
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.i
+.PHONY : src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.i
+
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.s: src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.s
+
+.PHONY : src/1.getting_started/4.3.textures_exercise1/textures_exercise1.s
+
+# target to generate assembly for a file
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.s
+.PHONY : src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.s
+
+src/1.getting_started/4.3.textures_exercise2/textures_exercise2.o: src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o
+
+.PHONY : src/1.getting_started/4.3.textures_exercise2/textures_exercise2.o
+
+# target to build an object file
+src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o
+.PHONY : src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.o
+
+src/1.getting_started/4.3.textures_exercise2/textures_exercise2.i: src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i
+
+.PHONY : src/1.getting_started/4.3.textures_exercise2/textures_exercise2.i
+
+# target to preprocess a source file
+src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i
+.PHONY : src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.i
+
+src/1.getting_started/4.3.textures_exercise2/textures_exercise2.s: src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s
+
+.PHONY : src/1.getting_started/4.3.textures_exercise2/textures_exercise2.s
+
+# target to generate assembly for a file
+src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s
+.PHONY : src/1.getting_started/4.3.textures_exercise2/textures_exercise2.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -665,6 +745,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.o
@@ -673,6 +754,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.o
 .PHONY : src/glad.c.o
@@ -686,6 +768,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.i
@@ -694,6 +777,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.i
 .PHONY : src/glad.c.i
@@ -707,6 +791,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.s
@@ -715,6 +800,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.s
 .PHONY : src/glad.c.s
@@ -726,6 +812,8 @@ src/stb_image.o: src/stb_image.cpp.o
 # target to build an object file
 src/stb_image.cpp.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
@@ -737,6 +825,8 @@ src/stb_image.i: src/stb_image.cpp.i
 # target to preprocess a source file
 src/stb_image.cpp.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
@@ -748,6 +838,8 @@ src/stb_image.s: src/stb_image.cpp.s
 # target to generate assembly for a file
 src/stb_image.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise2.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
@@ -762,6 +854,7 @@ help:
 	@echo "... OpenGL_Demo_4_2_textures_combined"
 	@echo "... OpenGL_Demo_3_3_shaders_class"
 	@echo "... OpenGL_Demo_3_2_shaders_interpolation"
+	@echo "... OpenGL_Demo_4_3_textures_exercise1"
 	@echo "... OpenGL_Demo_2_5_hello_triangle_exercise3"
 	@echo "... OpenGL_Demo_3_1_shaders_uniform"
 	@echo "... OpenGL_Demo_2_4_hello_triangle_exercise2"
@@ -772,6 +865,7 @@ help:
 	@echo "... OpenGl_Demo2"
 	@echo "... GLAD"
 	@echo "... edit_cache"
+	@echo "... OpenGL_Demo_4_3_textures_exercise2"
 	@echo "... OpenGL_Demo_4_1_texture"
 	@echo "... OpenGL_Demo_2_3_hello_triangle_exercise1"
 	@echo "... STB_IMAGE"
@@ -814,6 +908,12 @@ help:
 	@echo "... src/1.getting_started/4.2.textures_combined/textures_combined.o"
 	@echo "... src/1.getting_started/4.2.textures_combined/textures_combined.i"
 	@echo "... src/1.getting_started/4.2.textures_combined/textures_combined.s"
+	@echo "... src/1.getting_started/4.3.textures_exercise1/textures_exercise1.o"
+	@echo "... src/1.getting_started/4.3.textures_exercise1/textures_exercise1.i"
+	@echo "... src/1.getting_started/4.3.textures_exercise1/textures_exercise1.s"
+	@echo "... src/1.getting_started/4.3.textures_exercise2/textures_exercise2.o"
+	@echo "... src/1.getting_started/4.3.textures_exercise2/textures_exercise2.i"
+	@echo "... src/1.getting_started/4.3.textures_exercise2/textures_exercise2.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
