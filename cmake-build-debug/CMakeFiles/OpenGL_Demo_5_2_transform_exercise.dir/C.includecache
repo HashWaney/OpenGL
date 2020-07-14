@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/glad/glad.h
+../KHR/khrplatform.h
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/KHR/khrplatform.h
+
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+../include/glad/glad.h
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/include/glad/glad.h
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+

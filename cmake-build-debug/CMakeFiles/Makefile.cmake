@@ -58,6 +58,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/DependInfo.cmake"

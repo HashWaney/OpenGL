@@ -16,7 +16,7 @@ set(GLEW_LINK /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib)
 set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
 link_libraries(${OPENGL} ${GLFW_LINK} ${GLEW_LINK})
 add_library(STB_IMAGE "src/stb_image.cpp")
-set(LIBS  ${LIBS} STB_IMAGE)
+set(LIBS ${LIBS} STB_IMAGE)
 add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
 #通过configure_file命令指定生成root_directory.h头文件
@@ -96,6 +96,11 @@ add_executable(OpenGL_Demo_5_1_transform
         src/1.getting_started/5.1.transformations/transformations.cpp
         src/glad.c
         src/stb_image.cpp)
+add_executable(OpenGL_Demo_5_2_transform_exercise
+        src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp
+        src/glad.c
+        src/stb_image.cpp
+        )
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -146,5 +151,8 @@ if (APPLE)
     #5.1 transform
     target_link_libraries(OpenGL_Demo_5_1_transform "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_5_1_transform "-framework GLUT")
+    #5.2 transform exercise
+    target_link_libraries(OpenGL_Demo_5_2_transform_exercise "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_5_2_transform_exercise "-framework GLUT")
 
 endif ()

@@ -163,6 +163,19 @@ OpenGL_Demo_3_3_shaders_class/fast:
 .PHONY : OpenGL_Demo_3_3_shaders_class/fast
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_5_2_transform_exercise
+
+# Build rule for target.
+OpenGL_Demo_5_2_transform_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_5_2_transform_exercise
+.PHONY : OpenGL_Demo_5_2_transform_exercise
+
+# fast build rule for target.
+OpenGL_Demo_5_2_transform_exercise/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build
+.PHONY : OpenGL_Demo_5_2_transform_exercise/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_3_2_shaders_interpolation
 
 # Build rule for target.
@@ -816,6 +829,33 @@ src/1.getting_started/5.1.transformations/transformations.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/1.getting_started/5.1.transformations/transformations.cpp.s
 .PHONY : src/1.getting_started/5.1.transformations/transformations.cpp.s
 
+src/1.getting_started/5.2.transformations_exercise/transformations_exercise.o: src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.o
+
+.PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.o
+
+# target to build an object file
+src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.o
+.PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.o
+
+src/1.getting_started/5.2.transformations_exercise/transformations_exercise.i: src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.i
+
+.PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.i
+
+# target to preprocess a source file
+src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.i
+.PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.i
+
+src/1.getting_started/5.2.transformations_exercise/transformations_exercise.s: src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.s
+
+.PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.s
+
+# target to generate assembly for a file
+src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.s
+.PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -826,6 +866,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.o
@@ -851,6 +892,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.i
@@ -876,6 +918,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.s
@@ -900,6 +943,7 @@ src/stb_image.cpp.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.o
@@ -915,6 +959,7 @@ src/stb_image.cpp.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.i
@@ -930,6 +975,7 @@ src/stb_image.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.s
@@ -947,6 +993,7 @@ help:
 	@echo "... OpenGL_Demo_4_2_textures_combined"
 	@echo "... OpenGL_Demo_4_4_textures_exercise2"
 	@echo "... OpenGL_Demo_3_3_shaders_class"
+	@echo "... OpenGL_Demo_5_2_transform_exercise"
 	@echo "... OpenGL_Demo_3_2_shaders_interpolation"
 	@echo "... OpenGL_Demo_4_3_textures_exercise1"
 	@echo "... OpenGL_Demo_2_5_hello_triangle_exercise3"
@@ -1014,6 +1061,9 @@ help:
 	@echo "... src/1.getting_started/5.1.transformations/transformations.o"
 	@echo "... src/1.getting_started/5.1.transformations/transformations.i"
 	@echo "... src/1.getting_started/5.1.transformations/transformations.s"
+	@echo "... src/1.getting_started/5.2.transformations_exercise/transformations_exercise.o"
+	@echo "... src/1.getting_started/5.2.transformations_exercise/transformations_exercise.i"
+	@echo "... src/1.getting_started/5.2.transformations_exercise/transformations_exercise.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
