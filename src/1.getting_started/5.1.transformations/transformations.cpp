@@ -164,6 +164,9 @@ int main() {
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, texture2);
 
+        ////// first transformation ////
+
+
         //create transformations 参考  <a href=" https://juejin.im/post/5f0907466fb9a07e9b1abaa8">GLM</a>
         glm::mat4 transform = glm::mat4(1.0f); // 定义一个单位矩阵
         transform = glm::translate(transform, glm::vec3(0.5, 0.5, 0.0f)); // 变换为位移矩阵
@@ -176,6 +179,18 @@ int main() {
 
         glBindVertexArray(VAO);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+        //////second transformation//////
+
+        transform = glm::mat4(1.0f);
+        transform = glm::translate(transform, glm::vec3(-0.5f, 0.5f, 0.0f));
+        float scaleAmount = sin(glfwGetTime());
+        transform = glm::scale(transform, glm::vec3(scaleAmount, scaleAmount, scaleAmount));
+        //this time take the matrix value array's first element as its memory pointer value
+        //将矩阵值数组的第一个元素作为其内存指针值 &transform[0][0]
+        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, &transform[0][0]);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
 
         glfwSwapBuffers(window);
         glfwPollEvents();
@@ -196,5 +211,5 @@ void processInput(GLFWwindow *window) {
 }
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
-    glViewport(0,0,width,height);
+    glViewport(0, 0, width, height);
 }
