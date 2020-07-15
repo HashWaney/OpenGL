@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/all
 all: CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/all
 all: CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/all
 all: CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/all
@@ -82,6 +83,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/clean
 clean: CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/clean
 clean: CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/clean
 clean: CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/clean
@@ -104,6 +106,33 @@ clean: CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/clean
 clean: CMakeFiles/STB_IMAGE.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir
+
+# All Build rule for target.
+CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/all:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/depend
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=61,62,63,64 "Built target OpenGL_Demo_6_1_coordinate_system"
+.PHONY : CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/rule
+
+# Convenience name for target.
+OpenGL_Demo_6_1_coordinate_system: CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/rule
+
+.PHONY : OpenGL_Demo_6_1_coordinate_system
+
+# clean rule for target.
+CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/clean
+.PHONY : CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir
@@ -517,7 +546,7 @@ CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/clean:
 CMakeFiles/OpenGl_Demo2.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target OpenGl_Demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target OpenGl_Demo2"
 .PHONY : CMakeFiles/OpenGl_Demo2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -625,7 +654,7 @@ CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/clean:
 CMakeFiles/STB_IMAGE.dir/all:
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/depend
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target STB_IMAGE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target STB_IMAGE"
 .PHONY : CMakeFiles/STB_IMAGE.dir/all
 
 # Build rule for subdir invocation for target.

@@ -27,6 +27,60 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OpenGL_Demo_6_1_coordinate_system">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_6_1_coordinate_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glm"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_6_1_coordinate_system"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo_6_1_coordinate_system/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_6_1_coordinate_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glm"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo_6_1_coordinate_system/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="OpenGL_Demo_4_5_textures_exercise3">
 				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo_4_5_textures_exercise3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
@@ -1172,7 +1226,11 @@
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp">
 			<Option target="OpenGL_Demo_5_2_transform_exercise"/>
 		</Unit>
+		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp">
+			<Option target="OpenGL_Demo_6_1_coordinate_system"/>
+		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c">
+			<Option target="OpenGL_Demo_6_1_coordinate_system"/>
 			<Option target="OpenGL_Demo_4_5_textures_exercise3"/>
 			<Option target="OpenGL_Demo_4_2_textures_combined"/>
 			<Option target="OpenGL_Demo_4_4_textures_exercise2"/>
@@ -1193,6 +1251,7 @@
 			<Option target="OpenGL_Demo_2_3_hello_triangle_exercise1"/>
 		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp">
+			<Option target="OpenGL_Demo_6_1_coordinate_system"/>
 			<Option target="OpenGL_Demo_4_5_textures_exercise3"/>
 			<Option target="OpenGL_Demo_4_2_textures_combined"/>
 			<Option target="OpenGL_Demo_4_4_textures_exercise2"/>

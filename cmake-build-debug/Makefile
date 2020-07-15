@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo_6_1_coordinate_system
+
+# Build rule for target.
+OpenGL_Demo_6_1_coordinate_system: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo_6_1_coordinate_system
+.PHONY : OpenGL_Demo_6_1_coordinate_system
+
+# fast build rule for target.
+OpenGL_Demo_6_1_coordinate_system/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build
+.PHONY : OpenGL_Demo_6_1_coordinate_system/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_4_5_textures_exercise3
 
 # Build rule for target.
@@ -856,12 +869,40 @@ src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.s
 .PHONY : src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.s
 
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o: src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o
+
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o
+
+# target to build an object file
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o
+
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.i: src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i
+
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.i
+
+# target to preprocess a source file
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i
+
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.s: src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s
+
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.s
+
+# target to generate assembly for a file
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.o
@@ -888,6 +929,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.i
@@ -914,6 +956,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.s
@@ -940,6 +983,7 @@ src/stb_image.o: src/stb_image.cpp.o
 
 # target to build an object file
 src/stb_image.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.o
@@ -956,6 +1000,7 @@ src/stb_image.i: src/stb_image.cpp.i
 
 # target to preprocess a source file
 src/stb_image.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.i
@@ -972,6 +1017,7 @@ src/stb_image.s: src/stb_image.cpp.s
 
 # target to generate assembly for a file
 src/stb_image.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.s
@@ -989,6 +1035,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... OpenGL_Demo_6_1_coordinate_system"
 	@echo "... OpenGL_Demo_4_5_textures_exercise3"
 	@echo "... OpenGL_Demo_4_2_textures_combined"
 	@echo "... OpenGL_Demo_4_4_textures_exercise2"
@@ -1064,6 +1111,9 @@ help:
 	@echo "... src/1.getting_started/5.2.transformations_exercise/transformations_exercise.o"
 	@echo "... src/1.getting_started/5.2.transformations_exercise/transformations_exercise.i"
 	@echo "... src/1.getting_started/5.2.transformations_exercise/transformations_exercise.s"
+	@echo "... src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o"
+	@echo "... src/1.getting_started/6.1.coordinate_systems/coordinate_systems.i"
+	@echo "... src/1.getting_started/6.1.coordinate_systems/coordinate_systems.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

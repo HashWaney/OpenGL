@@ -101,6 +101,11 @@ add_executable(OpenGL_Demo_5_2_transform_exercise
         src/glad.c
         src/stb_image.cpp
         )
+add_executable(OpenGL_Demo_6_1_coordinate_system
+        src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp
+        src/glad.c
+        src/stb_image.cpp)
+
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -154,5 +159,7 @@ if (APPLE)
     #5.2 transform exercise
     target_link_libraries(OpenGL_Demo_5_2_transform_exercise "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_5_2_transform_exercise "-framework GLUT")
-
+    #6.1 coordinate system
+    target_link_libraries(OpenGL_Demo_6_1_coordinate_system "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_6_1_coordinate_system "-framework GLUT")
 endif ()

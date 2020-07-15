@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/DependInfo.cmake"
