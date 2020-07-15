@@ -40,10 +40,10 @@ int main() {
         return -1;
     }
 
-    //load shader
+   //load shader
     Shader shaderTool(
-            "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/6.1.coordinate_systems.vs",
-            "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/6.1.coordinate_systems.fs");
+            "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/6.3.coordinate_systems.vs",
+            "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/6.3.coordinate_systems.fs");
     float vertices[] = {
             //position
             0.5f, 0.5f, 0.0f, 1.0f, 1.0f, //top right

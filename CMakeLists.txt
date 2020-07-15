@@ -105,6 +105,14 @@ add_executable(OpenGL_Demo_6_1_coordinate_system
         src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp
         src/glad.c
         src/stb_image.cpp)
+add_executable(OpenGL_Demo_6_2_coordinate_system_depth
+        src/1.getting_started/6.2.coordinate_system_depth/coordinate_system_depth.cpp
+        src/glad.c
+        src/stb_image.cpp)
+add_executable(OpenGL_Demo_6_3_coordinate_multiple
+        src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.cpp
+        src/glad.c
+        src/stb_image.cpp)
 
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
@@ -162,4 +170,11 @@ if (APPLE)
     #6.1 coordinate system
     target_link_libraries(OpenGL_Demo_6_1_coordinate_system "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_6_1_coordinate_system "-framework GLUT")
+    #6.2 coordinate system depth
+    target_link_libraries(OpenGL_Demo_6_2_coordinate_system_depth "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_6_2_coordinate_system_depth "-framework GLUT")
+    #6.3 coordinate multiple
+    target_link_libraries(OpenGL_Demo_6_3_coordinate_multiple "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo_6_3_coordinate_multiple "-framework GLUT")
+
 endif ()
