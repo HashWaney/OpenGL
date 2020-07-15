@@ -49,7 +49,7 @@ int main() {
             0.5f, 0.5f, 0.0f, 1.0f, 1.0f, //top right
             0.5f, -0.5f, 0.0f, 1.0f, 0.0f, // bottom right
             -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, //bottom left
-            -0.5f, 0.5f, 0.0f, 0.0f, 0.5f, //top left
+            -0.5f, 0.5f, 0.0f, 0.0f, 1.0f, //top left
     };
     unsigned int indices[] = {
             0, 1, 3, // first triangle
@@ -136,7 +136,7 @@ int main() {
         glm::mat4 view = glm::mat4(1.0f);
         glm::mat4 projection = glm::mat4(1.0f);
         //绕x轴旋转，顺时针旋转55度
-        model = glm::rotate(model, glm::radians(45.f), glm::vec3(1.0f, 0.0f, 0.f));
+        model = glm::rotate(model, glm::radians(-75.f), glm::vec3(1.0f, 0.0f, 0.f));
         //z轴负方向进行位移操作
         view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
         //投影矩阵
