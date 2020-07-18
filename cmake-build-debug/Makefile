@@ -176,6 +176,19 @@ OpenGL_Demo_4_4_textures_exercise2/fast:
 .PHONY : OpenGL_Demo_4_4_textures_exercise2/fast
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo2_2_1_lighting_color
+
+# Build rule for target.
+OpenGL_Demo2_2_1_lighting_color: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo2_2_1_lighting_color
+.PHONY : OpenGL_Demo2_2_1_lighting_color
+
+# fast build rule for target.
+OpenGL_Demo2_2_1_lighting_color/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build
+.PHONY : OpenGL_Demo2_2_1_lighting_color/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_4_1_texture
 
 # Build rule for target.
@@ -976,6 +989,33 @@ src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build.make CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.cpp.s
 .PHONY : src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.cpp.s
 
+src/2.lighting/1.colors/colors.o: src/2.lighting/1.colors/colors.cpp.o
+
+.PHONY : src/2.lighting/1.colors/colors.o
+
+# target to build an object file
+src/2.lighting/1.colors/colors.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/2.lighting/1.colors/colors.cpp.o
+.PHONY : src/2.lighting/1.colors/colors.cpp.o
+
+src/2.lighting/1.colors/colors.i: src/2.lighting/1.colors/colors.cpp.i
+
+.PHONY : src/2.lighting/1.colors/colors.i
+
+# target to preprocess a source file
+src/2.lighting/1.colors/colors.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/2.lighting/1.colors/colors.cpp.i
+.PHONY : src/2.lighting/1.colors/colors.cpp.i
+
+src/2.lighting/1.colors/colors.s: src/2.lighting/1.colors/colors.cpp.s
+
+.PHONY : src/2.lighting/1.colors/colors.s
+
+# target to generate assembly for a file
+src/2.lighting/1.colors/colors.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/2.lighting/1.colors/colors.cpp.s
+.PHONY : src/2.lighting/1.colors/colors.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -987,6 +1027,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.o
@@ -1016,6 +1057,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.i
@@ -1045,6 +1087,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.s
@@ -1133,6 +1176,7 @@ help:
 	@echo "... OpenGL_Demo_4_5_textures_exercise3"
 	@echo "... OpenGL_Demo_4_2_textures_combined"
 	@echo "... OpenGL_Demo_4_4_textures_exercise2"
+	@echo "... OpenGL_Demo2_2_1_lighting_color"
 	@echo "... OpenGL_Demo_4_1_texture"
 	@echo "... OpenGL_Demo_3_3_shaders_class"
 	@echo "... OpenGL_Demo_2_2_hello_triangle_index"
@@ -1214,6 +1258,9 @@ help:
 	@echo "... src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.o"
 	@echo "... src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.i"
 	@echo "... src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.s"
+	@echo "... src/2.lighting/1.colors/colors.o"
+	@echo "... src/2.lighting/1.colors/colors.i"
+	@echo "... src/2.lighting/1.colors/colors.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

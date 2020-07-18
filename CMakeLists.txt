@@ -114,6 +114,11 @@ add_executable(OpenGL_Demo_6_3_coordinate_multiple
         src/glad.c
         src/stb_image.cpp)
 
+add_executable(OpenGL_Demo2_2_1_lighting_color
+        src/2.lighting/1.colors/colors.cpp
+        src/glad.c
+        )
+
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -176,5 +181,8 @@ if (APPLE)
     #6.3 coordinate multiple
     target_link_libraries(OpenGL_Demo_6_3_coordinate_multiple "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_6_3_coordinate_multiple "-framework GLUT")
+    # 2 /2.1 color
+    target_link_libraries(OpenGL_Demo2_2_1_lighting_color "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_2_1_lighting_color "-framework GLUT")
 
 endif ()

@@ -1,13 +1,15 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include <glad/glad.h>
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
+#include "../glad/glad.h"
+#include "../glm/glm.hpp"
+
+#include "../glm/gtc/matrix_transform.hpp"
 
 #include <vector>
 
-// Defines several possible options for camera movement. Used as abstraction to stay away from window-system specific input methods
+// Defines several possible options for camera movement.
+//Used as abstraction to stay away from window-system specific input methods
 enum Camera_Movement {
     FORWARD,
     BACKWARD,
@@ -16,9 +18,9 @@ enum Camera_Movement {
 };
 
 // Default camera values
-const float YAW         = -90.0f;
-const float PITCH       =  0.0f;
-const float SPEED       =  2.5f;
+const float YAW         = -90.0f; // 偏航角 从左 从右
+const float PITCH       =  0.0f;  // 俯仰角 从上 从下
+const float SPEED       =  2.5f;  //
 const float SENSITIVITY =  0.1f;
 const float ZOOM        =  45.0f;
 
@@ -41,8 +43,14 @@ public:
     float MouseSensitivity;
     float Zoom;
 
-    // constructor with vectors
-    Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), float yaw = YAW, float pitch = PITCH) : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
+    // constructor with vectors 向量构造
+    Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f),  //位置向量
+            glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), // 上向量
+            float yaw = YAW,    // 俯仰角
+            float pitch = PITCH) // 偏航角
+
+            //给定一个俯仰角和偏航角，我们可以把它们转换为一个代表新的方向向量的3D向量
+    : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
     {
         Position = position;
         WorldUp = up;
@@ -50,10 +58,11 @@ public:
         Pitch = pitch;
         updateCameraVectors();
     }
-    // constructor with scalar values
-    Camera(float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch) : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
+    // constructor with scalar values  标量构造
+    Camera(float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)
+        : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
     {
-        Position = glm::vec3(posX, posY, posZ);
+        Position = glm::vec3(posX, posY, posZ); // 通过标量来构造一个向量
         WorldUp = glm::vec3(upX, upY, upZ);
         Yaw = yaw;
         Pitch = pitch;
@@ -102,7 +111,8 @@ public:
         updateCameraVectors();
     }
 
-    // processes input received from a mouse scroll-wheel event. Only requires input on the vertical wheel-axis
+    // processes input received from a mouse scroll-wheel event.
+    // Only requires input on the vertical wheel-axis
     void ProcessMouseScroll(float yoffset)
     {
         Zoom -= (float)yoffset;
@@ -112,6 +122,8 @@ public:
             Zoom = 45.0f; 
     }
 
+    //观察位置
+    //摄像机的
 private:
     // calculates the front vector from the Camera's (updated) Euler Angles
     void updateCameraVectors()
@@ -123,8 +135,9 @@ private:
         front.z = sin(glm::radians(Yaw)) * cos(glm::radians(Pitch));
         Front = glm::normalize(front);
         // also re-calculate the Right and Up vector
-        Right = glm::normalize(glm::cross(Front, WorldUp));  // normalize the vectors, because their length gets closer to 0 the more you look up or down which results in slower movement.
-        Up    = glm::normalize(glm::cross(Right, Front));
+        // normalize the vectors, because their length gets closer to 0 the more you look up or down which results in slower movement.
+        Right = glm::normalize(glm::cross(Front, WorldUp));  // 右轴
+        Up    = glm::normalize(glm::cross(Right, Front)); // 上轴
     }
 };
 #endif
