@@ -30,14 +30,15 @@ class Camera
 {
 public:
     // camera Attributes
-    glm::vec3 Position;
-    glm::vec3 Front;
-    glm::vec3 Up;
-    glm::vec3 Right;
-    glm::vec3 WorldUp;
+    glm::vec3 Position; // 摄像机的位置向量
+    glm::vec3 Front; // 目标的位置向量
+    // position 与 front 其实求出摄像机的方向向量
+    glm::vec3 Up;  //上向量
+    glm::vec3 Right; // 右向量 通过上向量叉乘方向向量得出的。
+    glm::vec3 WorldUp; // z轴向量
     // euler Angles
-    float Yaw;
-    float Pitch;
+    float Yaw; // 俯仰角
+    float Pitch; // 偏航角
     // camera options
     float MovementSpeed;
     float MouseSensitivity;
@@ -46,8 +47,8 @@ public:
     // constructor with vectors 向量构造
     Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f),  //位置向量
             glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), // 上向量
-            float yaw = YAW,    // 俯仰角
-            float pitch = PITCH) // 偏航角
+            float yaw = YAW,    // 俯仰角 （往上，往下）
+            float pitch = PITCH) // 偏航角 （往左，往右）
 
             //给定一个俯仰角和偏航角，我们可以把它们转换为一个代表新的方向向量的3D向量
     : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
@@ -75,7 +76,9 @@ public:
         return glm::lookAt(Position, Position + Front, Up);
     }
 
-    // processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
+    // processes input received from any keyboard-like input system.
+    // Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
+    // 接收键盘输入的指定来不断的改变摄像机的位置向量从而更新观察目标的位置
     void ProcessKeyboard(Camera_Movement direction, float deltaTime)
     {
         float velocity = MovementSpeed * deltaTime;
@@ -99,15 +102,19 @@ public:
         Pitch += yoffset;
 
         // make sure that when pitch is out of bounds, screen doesn't get flipped
-        if (constrainPitch)
-        {
-            if (Pitch > 89.0f)
+        // 确保当俯仰角超出范围，屏幕不会翻转
+        if (constrainPitch){
+            if (Pitch > 89.0f){
                 Pitch = 89.0f;
-            if (Pitch < -89.0f)
+            }
+
+            if (Pitch < -89.0f){
                 Pitch = -89.0f;
+            }
         }
 
         // update Front, Right and Up Vectors using the updated Euler angles
+        // 使用更新的欧拉角来更新右和上向量
         updateCameraVectors();
     }
 
@@ -130,14 +137,15 @@ private:
     {
         // calculate the new Front vector
         glm::vec3 front;
+
         front.x = cos(glm::radians(Yaw)) * cos(glm::radians(Pitch));
         front.y = sin(glm::radians(Pitch));
         front.z = sin(glm::radians(Yaw)) * cos(glm::radians(Pitch));
         Front = glm::normalize(front);
         // also re-calculate the Right and Up vector
         // normalize the vectors, because their length gets closer to 0 the more you look up or down which results in slower movement.
-        Right = glm::normalize(glm::cross(Front, WorldUp));  // 右轴
-        Up    = glm::normalize(glm::cross(Right, Front)); // 上轴
+        Right = glm::normalize(glm::cross(Front, WorldUp));  // 右轴  = 上轴叉乘Z轴 Front * WorldUp 向量乘积 cross  计算两个向量的乘积    叉乘，就为了计算得出正交与这两个向量的第三维向量。
+        Up    = glm::normalize(glm::cross(Right, Front)); // 上轴 = 右轴叉乘Z轴
     }
 };
 #endif

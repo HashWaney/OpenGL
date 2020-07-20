@@ -1,5 +1,7 @@
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir
@@ -22,5 +24,6 @@
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo_5_1_transform.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGl_Demo2.dir
+/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/OpenGL_Demo2_3_1_material.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/GLAD.dir
 /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles/STB_IMAGE.dir

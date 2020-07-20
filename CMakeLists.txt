@@ -119,6 +119,23 @@ add_executable(OpenGL_Demo2_2_1_lighting_color
         src/glad.c
         )
 
+add_executable(OpenGL_Demo2_2_2_1_light_diffuse
+        src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp
+        src/glad.c
+        )
+
+add_executable(OpenGL_Demo2_2_2_2_light_specular
+        src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp
+        src/glad.c
+        )
+
+add_executable(OpenGL_Demo2_3_1_material
+
+        src/2.lighting/3.1.materials/materials.cpp
+        src/glad.c
+
+        )
+
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -181,8 +198,16 @@ if (APPLE)
     #6.3 coordinate multiple
     target_link_libraries(OpenGL_Demo_6_3_coordinate_multiple "-framework OpenGL")
     target_link_libraries(OpenGL_Demo_6_3_coordinate_multiple "-framework GLUT")
-    # 2 /2.1 color
+    # 2 /1 color
     target_link_libraries(OpenGL_Demo2_2_1_lighting_color "-framework OpenGL")
     target_link_libraries(OpenGL_Demo2_2_1_lighting_color "-framework GLUT")
-
+    # 2/ 2.1 basic_lighting_diffuse
+    target_link_libraries(OpenGL_Demo2_2_2_1_light_diffuse "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_2_2_1_light_diffuse "-framework GLUT")
+    # 2 /2.2 basic_lighting_specular
+    target_link_libraries(OpenGL_Demo2_2_2_2_light_specular "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_2_2_2_light_specular "-framework GLUT")
+    # 2 /3.1 materials
+    target_link_libraries(OpenGL_Demo2_3_1_material "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_3_1_material "-framework GLUT")
 endif ()

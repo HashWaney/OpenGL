@@ -54,6 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/DependInfo.cmake"
@@ -76,6 +78,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_Demo_5_1_transform.dir/DependInfo.cmake"
   "CMakeFiles/OpenGl_Demo2.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_Demo2_3_1_material.dir/DependInfo.cmake"
   "CMakeFiles/GLAD.dir/DependInfo.cmake"
   "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   )

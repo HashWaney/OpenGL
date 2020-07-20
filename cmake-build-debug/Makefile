@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo2_2_2_2_light_specular
+
+# Build rule for target.
+OpenGL_Demo2_2_2_2_light_specular: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo2_2_2_2_light_specular
+.PHONY : OpenGL_Demo2_2_2_2_light_specular
+
+# fast build rule for target.
+OpenGL_Demo2_2_2_2_light_specular/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build
+.PHONY : OpenGL_Demo2_2_2_2_light_specular/fast
+
+#=============================================================================
+# Target rules for targets named OpenGL_Demo2_2_2_1_light_diffuse
+
+# Build rule for target.
+OpenGL_Demo2_2_2_1_light_diffuse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo2_2_2_1_light_diffuse
+.PHONY : OpenGL_Demo2_2_2_1_light_diffuse
+
+# fast build rule for target.
+OpenGL_Demo2_2_2_1_light_diffuse/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build
+.PHONY : OpenGL_Demo2_2_2_1_light_diffuse/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo_6_1_coordinate_system
 
 # Build rule for target.
@@ -395,6 +421,19 @@ OpenGl_Demo2: cmake_check_build_system
 OpenGl_Demo2/fast:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/build
 .PHONY : OpenGl_Demo2/fast
+
+#=============================================================================
+# Target rules for targets named OpenGL_Demo2_3_1_material
+
+# Build rule for target.
+OpenGL_Demo2_3_1_material: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo2_3_1_material
+.PHONY : OpenGL_Demo2_3_1_material
+
+# fast build rule for target.
+OpenGL_Demo2_3_1_material/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/build
+.PHONY : OpenGL_Demo2_3_1_material/fast
 
 #=============================================================================
 # Target rules for targets named GLAD
@@ -1016,12 +1055,95 @@ src/2.lighting/1.colors/colors.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/build.make CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/2.lighting/1.colors/colors.cpp.s
 .PHONY : src/2.lighting/1.colors/colors.cpp.s
 
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.o: src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.o
+
+.PHONY : src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.o
+
+# target to build an object file
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.o
+.PHONY : src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.o
+
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.i: src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.i
+
+.PHONY : src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.i
+
+# target to preprocess a source file
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.i
+.PHONY : src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.i
+
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.s: src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.s
+
+.PHONY : src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.s
+
+# target to generate assembly for a file
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.s
+.PHONY : src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.s
+
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.o: src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.o
+
+.PHONY : src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.o
+
+# target to build an object file
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.o
+.PHONY : src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.o
+
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.i: src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.i
+
+.PHONY : src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.i
+
+# target to preprocess a source file
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.i
+.PHONY : src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.i
+
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.s: src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.s
+
+.PHONY : src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.s
+
+# target to generate assembly for a file
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.s
+.PHONY : src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.s
+
+src/2.lighting/3.1.materials/materials.o: src/2.lighting/3.1.materials/materials.cpp.o
+
+.PHONY : src/2.lighting/3.1.materials/materials.o
+
+# target to build an object file
+src/2.lighting/3.1.materials/materials.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/2.lighting/3.1.materials/materials.cpp.o
+.PHONY : src/2.lighting/3.1.materials/materials.cpp.o
+
+src/2.lighting/3.1.materials/materials.i: src/2.lighting/3.1.materials/materials.cpp.i
+
+.PHONY : src/2.lighting/3.1.materials/materials.i
+
+# target to preprocess a source file
+src/2.lighting/3.1.materials/materials.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/2.lighting/3.1.materials/materials.cpp.i
+.PHONY : src/2.lighting/3.1.materials/materials.cpp.i
+
+src/2.lighting/3.1.materials/materials.s: src/2.lighting/3.1.materials/materials.cpp.s
+
+.PHONY : src/2.lighting/3.1.materials/materials.s
+
+# target to generate assembly for a file
+src/2.lighting/3.1.materials/materials.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/2.lighting/3.1.materials/materials.cpp.s
+.PHONY : src/2.lighting/3.1.materials/materials.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build.make CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.o
@@ -1043,6 +1165,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/build.make CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
@@ -1052,6 +1175,8 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build.make CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.i
@@ -1073,6 +1198,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/build.make CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
@@ -1082,6 +1208,8 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build.make CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.s
@@ -1103,6 +1231,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/build.make CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
@@ -1171,6 +1300,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... OpenGL_Demo2_2_2_2_light_specular"
+	@echo "... OpenGL_Demo2_2_2_1_light_diffuse"
 	@echo "... OpenGL_Demo_6_1_coordinate_system"
 	@echo "... OpenGL_Demo_6_3_coordinate_multiple"
 	@echo "... OpenGL_Demo_4_5_textures_exercise3"
@@ -1193,6 +1324,7 @@ help:
 	@echo "... OpenGL_Demo_6_2_coordinate_system_depth"
 	@echo "... OpenGL_Demo_5_1_transform"
 	@echo "... OpenGl_Demo2"
+	@echo "... OpenGL_Demo2_3_1_material"
 	@echo "... GLAD"
 	@echo "... STB_IMAGE"
 	@echo "... src/01_first_view.o"
@@ -1261,6 +1393,15 @@ help:
 	@echo "... src/2.lighting/1.colors/colors.o"
 	@echo "... src/2.lighting/1.colors/colors.i"
 	@echo "... src/2.lighting/1.colors/colors.s"
+	@echo "... src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.o"
+	@echo "... src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.i"
+	@echo "... src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.s"
+	@echo "... src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.o"
+	@echo "... src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.i"
+	@echo "... src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.s"
+	@echo "... src/2.lighting/3.1.materials/materials.o"
+	@echo "... src/2.lighting/3.1.materials/materials.i"
+	@echo "... src/2.lighting/3.1.materials/materials.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
