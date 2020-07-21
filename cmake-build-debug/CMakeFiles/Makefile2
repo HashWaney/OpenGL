@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/all
 all: CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/all
 all: CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/all
 all: CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/all
@@ -90,6 +91,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/clean
 clean: CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/clean
 clean: CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/clean
 clean: CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/clean
@@ -120,6 +122,33 @@ clean: CMakeFiles/GLAD.dir/clean
 clean: CMakeFiles/STB_IMAGE.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir
+
+# All Build rule for target.
+CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/all:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/depend
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24 "Built target OpenGL_Demo2_4_1_map_diffuse"
+.PHONY : CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/rule
+
+# Convenience name for target.
+OpenGL_Demo2_4_1_map_diffuse: CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/rule
+
+.PHONY : OpenGL_Demo2_4_1_map_diffuse
+
+# clean rule for target.
+CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/clean
+.PHONY : CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir
@@ -209,7 +238,7 @@ CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/clean:
 CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=76,77,78,79 "Built target OpenGL_Demo_6_1_coordinate_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=80,81,82,83 "Built target OpenGL_Demo_6_1_coordinate_system"
 .PHONY : CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/all
 
 # Build rule for subdir invocation for target.
@@ -236,7 +265,7 @@ CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/clean:
 CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build.make CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build.make CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=84,85,86,87 "Built target OpenGL_Demo_6_3_coordinate_multiple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=88,89,90,91 "Built target OpenGL_Demo_6_3_coordinate_multiple"
 .PHONY : CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,7 +292,7 @@ CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/clean:
 CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=64,65,66,67 "Built target OpenGL_Demo_4_5_textures_exercise3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=68,69,70,71 "Built target OpenGL_Demo_4_5_textures_exercise3"
 .PHONY : CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,7 +319,7 @@ CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/clean:
 CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build.make CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=52,53,54,55 "Built target OpenGL_Demo_4_2_textures_combined"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=56,57,58,59 "Built target OpenGL_Demo_4_2_textures_combined"
 .PHONY : CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/all
 
 # Build rule for subdir invocation for target.
@@ -317,7 +346,7 @@ CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/clean:
 CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=60,61,62,63 "Built target OpenGL_Demo_4_4_textures_exercise2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=64,65,66,67 "Built target OpenGL_Demo_4_4_textures_exercise2"
 .PHONY : CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -371,7 +400,7 @@ CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/clean:
 CMakeFiles/OpenGL_Demo_4_1_texture.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_1_texture.dir/build.make CMakeFiles/OpenGL_Demo_4_1_texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=48,49,50,51 "Built target OpenGL_Demo_4_1_texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=52,53,54,55 "Built target OpenGL_Demo_4_1_texture"
 .PHONY : CMakeFiles/OpenGL_Demo_4_1_texture.dir/all
 
 # Build rule for subdir invocation for target.
@@ -398,7 +427,7 @@ CMakeFiles/OpenGL_Demo_4_1_texture.dir/clean:
 CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build.make CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=45,46,47 "Built target OpenGL_Demo_3_3_shaders_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=49,50,51 "Built target OpenGL_Demo_3_3_shaders_class"
 .PHONY : CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/all
 
 # Build rule for subdir invocation for target.
@@ -425,7 +454,7 @@ CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/clean:
 CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build.make CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=27,28,29 "Built target OpenGL_Demo_2_2_hello_triangle_index"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target OpenGL_Demo_2_2_hello_triangle_index"
 .PHONY : CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/all
 
 # Build rule for subdir invocation for target.
@@ -452,7 +481,7 @@ CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/clean:
 CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build.make CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=72,73,74,75 "Built target OpenGL_Demo_5_2_transform_exercise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=76,77,78,79 "Built target OpenGL_Demo_5_2_transform_exercise"
 .PHONY : CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/all
 
 # Build rule for subdir invocation for target.
@@ -479,7 +508,7 @@ CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/clean:
 CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build.make CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=42,43,44 "Built target OpenGL_Demo_3_2_shaders_interpolation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=46,47,48 "Built target OpenGL_Demo_3_2_shaders_interpolation"
 .PHONY : CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -506,7 +535,7 @@ CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/clean:
 CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build.make CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=21,22,23 "Built target OpenGL_Demo_1_1_hello_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target OpenGL_Demo_1_1_hello_window"
 .PHONY : CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -533,7 +562,7 @@ CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/clean:
 CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=56,57,58,59 "Built target OpenGL_Demo_4_3_textures_exercise1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=60,61,62,63 "Built target OpenGL_Demo_4_3_textures_exercise1"
 .PHONY : CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -560,7 +589,7 @@ CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/clean:
 CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build.make CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=36,37,38 "Built target OpenGL_Demo_2_5_hello_triangle_exercise3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=40,41,42 "Built target OpenGL_Demo_2_5_hello_triangle_exercise3"
 .PHONY : CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -587,7 +616,7 @@ CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/clean:
 CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build.make CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=39,40,41 "Built target OpenGL_Demo_3_1_shaders_uniform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=43,44,45 "Built target OpenGL_Demo_3_1_shaders_uniform"
 .PHONY : CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/all
 
 # Build rule for subdir invocation for target.
@@ -614,7 +643,7 @@ CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/clean:
 CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build.make CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=30,31,32 "Built target OpenGL_Demo_2_3_hello_triangle_exercise1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=34,35,36 "Built target OpenGL_Demo_2_3_hello_triangle_exercise1"
 .PHONY : CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -641,7 +670,7 @@ CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/clean:
 CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build.make CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=33,34,35 "Built target OpenGL_Demo_2_4_hello_triangle_exercise2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=37,38,39 "Built target OpenGL_Demo_2_4_hello_triangle_exercise2"
 .PHONY : CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -695,7 +724,7 @@ CMakeFiles/OpenGL_Demo1.dir/clean:
 CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build.make CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=24,25,26 "Built target OpenGL_Demo_2_1_hello_triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target OpenGL_Demo_2_1_hello_triangle"
 .PHONY : CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -722,7 +751,7 @@ CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/clean:
 CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/build.make CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/build.make CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=80,81,82,83 "Built target OpenGL_Demo_6_2_coordinate_system_depth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=84,85,86,87 "Built target OpenGL_Demo_6_2_coordinate_system_depth"
 .PHONY : CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/all
 
 # Build rule for subdir invocation for target.
@@ -749,7 +778,7 @@ CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/clean:
 CMakeFiles/OpenGL_Demo_5_1_transform.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_5_1_transform.dir/build.make CMakeFiles/OpenGL_Demo_5_1_transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=68,69,70,71 "Built target OpenGL_Demo_5_1_transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=72,73,74,75 "Built target OpenGL_Demo_5_1_transform"
 .PHONY : CMakeFiles/OpenGL_Demo_5_1_transform.dir/all
 
 # Build rule for subdir invocation for target.
@@ -776,7 +805,7 @@ CMakeFiles/OpenGL_Demo_5_1_transform.dir/clean:
 CMakeFiles/OpenGl_Demo2.dir/all:
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGl_Demo2.dir/build.make CMakeFiles/OpenGl_Demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=88,89 "Built target OpenGl_Demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=92,93 "Built target OpenGl_Demo2"
 .PHONY : CMakeFiles/OpenGl_Demo2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -857,7 +886,7 @@ CMakeFiles/GLAD.dir/clean:
 CMakeFiles/STB_IMAGE.dir/all:
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/depend
 	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target STB_IMAGE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/CMakeFiles --progress-num=94,95 "Built target STB_IMAGE"
 .PHONY : CMakeFiles/STB_IMAGE.dir/all
 
 # Build rule for subdir invocation for target.

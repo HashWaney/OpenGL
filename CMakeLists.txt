@@ -137,6 +137,11 @@ add_executable(OpenGL_Demo2_3_2_material_exercise
         src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp
         src/glad.c
         )
+add_executable(OpenGL_Demo2_4_1_map_diffuse
+        src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp
+        src/glad.c
+        src/stb_image.cpp
+        )
 
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
@@ -215,5 +220,7 @@ if (APPLE)
     # 2 /3.2 materials_exercise
     target_link_libraries(OpenGL_Demo2_3_2_material_exercise "-framework OpenGL")
     target_link_libraries(OpenGL_Demo2_3_2_material_exercise "-framework GLUT")
-
+    #2 /4.1 map diffuse
+    target_link_libraries(OpenGL_Demo2_4_1_map_diffuse "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_4_1_map_diffuse "-framework GLUT")
 endif ()

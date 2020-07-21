@@ -37,6 +37,60 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OpenGL_Demo2_4_1_map_diffuse">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo2_4_1_map_diffuse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glm"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo2_4_1_map_diffuse"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_Demo2_4_1_map_diffuse/fast">
+				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo2_4_1_map_diffuse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glew/2.1.0/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include/GLFW"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glad"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/learnopengl"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/../include/glm"/>
+					<Add directory="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/configuration"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Demo2_4_1_map_diffuse/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="OpenGL_Demo2_3_2_material_exercise">
 				<Option output="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug/OpenGL_Demo2_3_2_material_exercise" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wangqing/Desktop/JNI/CPP/OpenGl/cmake-build-debug"/>
@@ -1628,7 +1682,11 @@
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp">
 			<Option target="OpenGL_Demo2_3_2_material_exercise"/>
 		</Unit>
+		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp">
+			<Option target="OpenGL_Demo2_4_1_map_diffuse"/>
+		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c">
+			<Option target="OpenGL_Demo2_4_1_map_diffuse"/>
 			<Option target="OpenGL_Demo2_3_2_material_exercise"/>
 			<Option target="OpenGL_Demo2_2_2_2_light_specular"/>
 			<Option target="OpenGL_Demo2_2_2_1_light_diffuse"/>
@@ -1657,6 +1715,7 @@
 			<Option target="GLAD"/>
 		</Unit>
 		<Unit filename="/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp">
+			<Option target="OpenGL_Demo2_4_1_map_diffuse"/>
 			<Option target="OpenGL_Demo_6_1_coordinate_system"/>
 			<Option target="OpenGL_Demo_6_3_coordinate_multiple"/>
 			<Option target="OpenGL_Demo_4_5_textures_exercise3"/>
