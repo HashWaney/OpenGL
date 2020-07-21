@@ -71,6 +71,7 @@ public:
     }
 
     // returns the view matrix calculated using Euler Angles and the LookAt Matrix
+    // 返回摄像机的观察矩阵，
     glm::mat4 GetViewMatrix()
     {
         return glm::lookAt(Position, Position + Front, Up);

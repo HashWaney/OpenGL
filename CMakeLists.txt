@@ -143,6 +143,13 @@ add_executable(OpenGL_Demo2_4_1_map_diffuse
         src/stb_image.cpp
         )
 
+add_executable(OpenGL_Demo2_4_2_map_specular
+        src/2.lighting/4.2.lighting_maps_specular/lighting_maps_specular.cpp
+        src/glad.c
+        src/stb_image.cpp
+
+        )
+
 if (APPLE)
     # 链接的执行程序上比如OpenGL_Demo1 中使用了OpenGL相关的头文件，就需要指定同样名称的执行程序
     target_link_libraries(OpenGL_Demo1 "-framework OpenGL")
@@ -223,4 +230,14 @@ if (APPLE)
     #2 /4.1 map diffuse
     target_link_libraries(OpenGL_Demo2_4_1_map_diffuse "-framework OpenGL")
     target_link_libraries(OpenGL_Demo2_4_1_map_diffuse "-framework GLUT")
+
+    #2 /4.2 map specular
+    target_link_libraries(OpenGL_Demo2_4_2_map_specular "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_4_2_map_specular "-framework GLUT")
+
+
+
+
+
+
 endif ()
