@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OpenGL_Demo2_3_2_material_exercise
+
+# Build rule for target.
+OpenGL_Demo2_3_2_material_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Demo2_3_2_material_exercise
+.PHONY : OpenGL_Demo2_3_2_material_exercise
+
+# fast build rule for target.
+OpenGL_Demo2_3_2_material_exercise/fast:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build
+.PHONY : OpenGL_Demo2_3_2_material_exercise/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Demo2_2_2_2_light_specular
 
 # Build rule for target.
@@ -1136,12 +1149,40 @@ src/2.lighting/3.1.materials/materials.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_1_material.dir/build.make CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/2.lighting/3.1.materials/materials.cpp.s
 .PHONY : src/2.lighting/3.1.materials/materials.cpp.s
 
+src/2.lighting/3.2.materials_exercise1/materials_exercise.o: src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.o
+
+.PHONY : src/2.lighting/3.2.materials_exercise1/materials_exercise.o
+
+# target to build an object file
+src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.o
+.PHONY : src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.o
+
+src/2.lighting/3.2.materials_exercise1/materials_exercise.i: src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.i
+
+.PHONY : src/2.lighting/3.2.materials_exercise1/materials_exercise.i
+
+# target to preprocess a source file
+src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.i
+.PHONY : src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.i
+
+src/2.lighting/3.2.materials_exercise1/materials_exercise.s: src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.s
+
+.PHONY : src/2.lighting/3.2.materials_exercise1/materials_exercise.s
+
+# target to generate assembly for a file
+src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.s
+.PHONY : src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.o
@@ -1175,6 +1216,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.i
@@ -1208,6 +1250,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/build.make CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/build.make CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/build.make CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.s
@@ -1300,6 +1343,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... OpenGL_Demo2_3_2_material_exercise"
 	@echo "... OpenGL_Demo2_2_2_2_light_specular"
 	@echo "... OpenGL_Demo2_2_2_1_light_diffuse"
 	@echo "... OpenGL_Demo_6_1_coordinate_system"
@@ -1402,6 +1446,9 @@ help:
 	@echo "... src/2.lighting/3.1.materials/materials.o"
 	@echo "... src/2.lighting/3.1.materials/materials.i"
 	@echo "... src/2.lighting/3.1.materials/materials.s"
+	@echo "... src/2.lighting/3.2.materials_exercise1/materials_exercise.o"
+	@echo "... src/2.lighting/3.2.materials_exercise1/materials_exercise.i"
+	@echo "... src/2.lighting/3.2.materials_exercise1/materials_exercise.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

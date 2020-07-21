@@ -1,0 +1,302 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OpenGL_Demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GLAD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GLAD-Debug-baa0d2526e5673a2fc1e.json",
+					"name" : "GLAD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo1-Debug-fee91e0f86dee4e1f524.json",
+					"name" : "OpenGL_Demo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_2_1_lighting_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_2_1_lighting_color-Debug-ddfdb1534b71916750b1.json",
+					"name" : "OpenGL_Demo2_2_1_lighting_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_2_2_1_light_diffuse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_2_2_1_light_diffuse-Debug-277758cd411382e1b608.json",
+					"name" : "OpenGL_Demo2_2_2_1_light_diffuse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_2_2_2_light_specular::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_2_2_2_light_specular-Debug-ecbdf10406e04eaebb5c.json",
+					"name" : "OpenGL_Demo2_2_2_2_light_specular",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_3_1_material::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_3_1_material-Debug-7484d388a7ba3fb654da.json",
+					"name" : "OpenGL_Demo2_3_1_material",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_3_2_material_exercise::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_3_2_material_exercise-Debug-414de2469d9b35819bf4.json",
+					"name" : "OpenGL_Demo2_3_2_material_exercise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_1_1_hello_window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_1_1_hello_window-Debug-5fd992c83424c4bf11ab.json",
+					"name" : "OpenGL_Demo_1_1_hello_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_2_1_hello_triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_2_1_hello_triangle-Debug-93743a73695ac1fcdbb7.json",
+					"name" : "OpenGL_Demo_2_1_hello_triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_2_2_hello_triangle_index::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_2_2_hello_triangle_index-Debug-5df71c9ff20d5415e287.json",
+					"name" : "OpenGL_Demo_2_2_hello_triangle_index",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_2_3_hello_triangle_exercise1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_2_3_hello_triangle_exercise1-Debug-09da39e6b82c75bff33b.json",
+					"name" : "OpenGL_Demo_2_3_hello_triangle_exercise1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_2_4_hello_triangle_exercise2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_2_4_hello_triangle_exercise2-Debug-ec073e113305f094b2dd.json",
+					"name" : "OpenGL_Demo_2_4_hello_triangle_exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_2_5_hello_triangle_exercise3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_2_5_hello_triangle_exercise3-Debug-d982d2a03bf7add18a15.json",
+					"name" : "OpenGL_Demo_2_5_hello_triangle_exercise3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_3_1_shaders_uniform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_3_1_shaders_uniform-Debug-ac02255e18d06587a382.json",
+					"name" : "OpenGL_Demo_3_1_shaders_uniform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_3_2_shaders_interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_3_2_shaders_interpolation-Debug-fd7388a3a4cf3822e14e.json",
+					"name" : "OpenGL_Demo_3_2_shaders_interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_3_3_shaders_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_3_3_shaders_class-Debug-ed2b81a49753b42ed55a.json",
+					"name" : "OpenGL_Demo_3_3_shaders_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_4_1_texture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_4_1_texture-Debug-694b368261847273c780.json",
+					"name" : "OpenGL_Demo_4_1_texture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_4_2_textures_combined::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_4_2_textures_combined-Debug-2b6f868a24893a69791d.json",
+					"name" : "OpenGL_Demo_4_2_textures_combined",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_4_3_textures_exercise1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_4_3_textures_exercise1-Debug-99bbc2b48e861d2396bd.json",
+					"name" : "OpenGL_Demo_4_3_textures_exercise1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_4_4_textures_exercise2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_4_4_textures_exercise2-Debug-ca005b6ab4f7d6214836.json",
+					"name" : "OpenGL_Demo_4_4_textures_exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_4_5_textures_exercise3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_4_5_textures_exercise3-Debug-bc0f644281a8af829065.json",
+					"name" : "OpenGL_Demo_4_5_textures_exercise3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_5_1_transform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_5_1_transform-Debug-79aa331ac82983cec275.json",
+					"name" : "OpenGL_Demo_5_1_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_5_2_transform_exercise::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_5_2_transform_exercise-Debug-e2a9ce81d7fdb0dbd1dd.json",
+					"name" : "OpenGL_Demo_5_2_transform_exercise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_6_1_coordinate_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_6_1_coordinate_system-Debug-53bc32e658672eeea043.json",
+					"name" : "OpenGL_Demo_6_1_coordinate_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_6_2_coordinate_system_depth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_6_2_coordinate_system_depth-Debug-66f7e3ac8b7fd158c980.json",
+					"name" : "OpenGL_Demo_6_2_coordinate_system_depth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo_6_3_coordinate_multiple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo_6_3_coordinate_multiple-Debug-a0eb433ea3f4460b38dc.json",
+					"name" : "OpenGL_Demo_6_3_coordinate_multiple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGl_Demo2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGl_Demo2-Debug-d0c491b0853f113ed4f3.json",
+					"name" : "OpenGl_Demo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STB_IMAGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STB_IMAGE-Debug-ca1e7e251730ceca7cb1.json",
+					"name" : "STB_IMAGE",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+		"source" : "/Users/wangqing/Desktop/JNI/CPP/OpenGl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -130,10 +130,12 @@ add_executable(OpenGL_Demo2_2_2_2_light_specular
         )
 
 add_executable(OpenGL_Demo2_3_1_material
-
         src/2.lighting/3.1.materials/materials.cpp
         src/glad.c
-
+        )
+add_executable(OpenGL_Demo2_3_2_material_exercise
+        src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp
+        src/glad.c
         )
 
 if (APPLE)
@@ -210,4 +212,8 @@ if (APPLE)
     # 2 /3.1 materials
     target_link_libraries(OpenGL_Demo2_3_1_material "-framework OpenGL")
     target_link_libraries(OpenGL_Demo2_3_1_material "-framework GLUT")
+    # 2 /3.2 materials_exercise
+    target_link_libraries(OpenGL_Demo2_3_2_material_exercise "-framework OpenGL")
+    target_link_libraries(OpenGL_Demo2_3_2_material_exercise "-framework GLUT")
+
 endif ()

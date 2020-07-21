@@ -1,0 +1,379 @@
+[
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_2_2_2_light_specular.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_2_2_1_light_diffuse.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_6_1_coordinate_system.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.3.coordinate_system_multiple/coordinate_system_multiple.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_6_3_coordinate_multiple.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/1.getting_started/4.5.textures_exercise3/textures_exercise3.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.5.textures_exercise3/textures_exercise3.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.5.textures_exercise3/textures_exercise3.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_5_textures_exercise3.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.2.textures_combined/textures_combined.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.2.textures_combined/textures_combined.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_2_textures_combined.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_4_textures_exercise2.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/2.lighting/1.colors/colors.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/1.colors/colors.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/1.colors/colors.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_2_1_lighting_color.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/1.getting_started/4.1.textures/textures.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.1.textures/textures.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.1.textures/textures.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_1_texture.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/1.getting_started/3.3.shaders_class/shaders_class.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.3.shaders_class/shaders_class.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.3.shaders_class/shaders_class.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_3_3_shaders_class.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.2.hello_triangle_index/hello_triangle_index.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_2_2_hello_triangle_index.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/5.2.transformations_exercise/transformations_exercise.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_5_2_transform_exercise.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_3_2_shaders_interpolation.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/1.1.hello_window/hello_window.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/1.1.hello_window/hello_window.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_1_1_hello_window.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_4_3_textures_exercise1.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_2_5_hello_triangle_exercise3.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_3_1_shaders_uniform.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_2_3_hello_triangle_exercise1.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_2_4_hello_triangle_exercise2.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo1.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo1.dir/src/01_first_view.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/01_first_view.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/01_first_view.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/2.1.hello_triangle/hello_triagnle.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_2_1_hello_triangle.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/src/1.getting_started/6.2.coordinate_system_depth/coordinate_system_depth.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.2.coordinate_system_depth/coordinate_system_depth.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/6.2.coordinate_system_depth/coordinate_system_depth.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_6_2_coordinate_system_depth.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/1.getting_started/5.1.transformations/transformations.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/5.1.transformations/transformations.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/1.getting_started/5.1.transformations/transformations.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo_5_1_transform.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGl_Demo2.dir/src/02_test.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/02_test.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/02_test.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/2.lighting/3.1.materials/materials.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.1.materials/materials.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.1.materials/materials.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_3_1_material.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/GLAD.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+}
+]
