@@ -41,7 +41,9 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28,
+						29
 					]
 				}
 			],
@@ -83,7 +85,9 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28,
+						29
 					]
 				}
 			],
@@ -136,6 +140,20 @@
 					"id" : "OpenGL_Demo2_3_2_material_exercise::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-OpenGL_Demo2_3_2_material_exercise-Debug-414de2469d9b35819bf4.json",
 					"name" : "OpenGL_Demo2_3_2_material_exercise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_4_1_map_diffuse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_4_1_map_diffuse-Debug-b50a08e1c101a0c14aec.json",
+					"name" : "OpenGL_Demo2_4_1_map_diffuse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_Demo2_4_2_map_specular::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_Demo2_4_2_map_specular-Debug-61e1c611f1fa8b83d684.json",
+					"name" : "OpenGL_Demo2_4_2_map_specular",
 					"projectIndex" : 0
 				},
 				{

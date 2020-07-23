@@ -1,6 +1,42 @@
 [
 {
   "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_4_2_map_specular.dir/src/2.lighting/4.2.lighting_maps_specular/lighting_maps_specular.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/4.2.lighting_maps_specular/lighting_maps_specular.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/4.2.lighting_maps_specular/lighting_maps_specular.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_4_2_map_specular.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_4_2_map_specular.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang  -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/src/glad.c.o   -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/glad.c"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
+  "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_4_1_map_diffuse.dir/src/stb_image.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp",
+  "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/stb_image.cpp"
+},
+
+{
+  "directory": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/build",
   "command": "/usr/bin/clang++   -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW -I../../include/glad -I../../include/learnopengl -I../../include/glm -Iconfiguration  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/OpenGL_Demo2_3_2_material_exercise.dir/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp.o -c /Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp",
   "file": "/Users/wangqing/Desktop/JNI/CPP/OpenGl/src/2.lighting/3.2.materials_exercise1/materials_exercise.cpp"
 },
